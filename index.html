@@ -8,60 +8,40 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-3V4G2VMZCB"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-3V4G2VMZCB"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
 
-  gtag('config', 'G-3V4G2VMZCB');
-</script>
+    gtag('config', 'G-3V4G2VMZCB');
+  </script>
 
+  <!-- User interface depending on screen size -->
   <style>
     @media only screen and (min-device-width : 1200.1px){
-      /* large screen  */
-    .mafm {
-        display: none;
+    /* large screen  */
+    .mafm {display: none;}
+    .full_screen_mode{display: none;}
+
+      @media (max-width: 1200px){
+      .mac {display: none;}
+      .full_screen_mode{display: unset;}
+      }
     }
-    .full_screen_mode{
-      display: none;
-    }
-    @media (max-width: 1200px){
-    .mac {
-      display: none;
-    }
-    .full_screen_mode{
-      display: unset;
-    }
-    }
-    /* .main_content {
-      display: unset;
-    } */
-}
-@media only screen and (max-device-width : 1200px){
+
+  @media only screen and (max-device-width : 1200px){
   /* screen is small */
-    .mac {
-        display: none;
-    }
-    .full_screen_mode{
-      display: none;
-    }
-    /* .mafm {
-      display: unset;
-    } */
-}
+  .mac {display: none;}
+  .full_screen_mode{display: none;}
+  }
 
 
 </style>
-
-
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
     integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-
-  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
-  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
 
   <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
   <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
@@ -76,11 +56,6 @@
   <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css'>
 
 
-
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
-
-  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css'>
-  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css'>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
     integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -120,13 +95,6 @@
 
   <link rel="shortcut icon" href="images/favicon.png" />
 
-
-
-  <style>
-
-  </style>
-
-
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
     integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
     crossorigin="anonymous"></script>
@@ -147,8 +115,7 @@
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js">
-  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
   <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
   <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
   <script src="https://cpwebassets.codepen.io/assets/common/stopExecutionOnTimeout-8216c69d01441f36c0ea791ae2d4469f0f8ff5326f00ae2d00e4bb7d20e24edb.js"></script>
@@ -162,9 +129,7 @@
   <script src='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.1/owl.carousel.min.js'></script>
 
   <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com">
 
-  <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Arimo&display=swap" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="css/cssreset.css">
   <!-- <link href="easy_slide.css" rel="stylesheet" type="text/css" /> -->
@@ -257,11 +222,7 @@
 
 
   <div class="mac">
-
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
-
-
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <!-- <script src="node_modules/is-in-viewport/lib/isInViewport.js"></script> -->
   <script>
@@ -298,7 +259,9 @@ setTimeout(function(){
     .css({
       'overflow': 'visible'
     })
-  }, 17500);
+  },
+  // 17500);
+ 10);
 
 
     $('video').each(function(){
@@ -330,15 +293,11 @@ if ($(this).is(":in-viewport")) {
 
   <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script> -->
   <script src="js/overlay2.js"></script>
-
-
   <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
   <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
    <script src="jQuery.scrollSpeed.js"></script>
 
-
-
-
+<!--
    <section class="counter counter-overlay">
        <div id="loader" class="loader">
          <canvas id="circularLoader" width="200" height="200"></canvas>
@@ -370,19 +329,14 @@ if ($(this).is(":in-viewport")) {
         </div>
       </div>
     </div>
-
+  -->
     <div class="slide-left" style="background-size:cover">
       <img src="logo.png" width="50%">
-
     </div>
-    </head>
-
     <div class="wa-push">
       <span class="wa-inner t1"> we are </span>
     </div>
-
     <div class="wavy-heading">
-
       <div class="wavy space">
         <span class="t2"><span class="t21" style="--i:1;">a</span><span class="t22" style="--i:2;">s</span><span
             class="t23" style="--i:3;">m</span><span class="t24" style="--i:4;">e</span><span class="t25"
@@ -403,10 +357,6 @@ if ($(this).is(":in-viewport")) {
         <source src="videos/landing.mp4" type="video/mp4">
       </video>
     </div>
-    <!-- <video autoplay muted loop id=" myVideo">
-                                              <source src="images/aboutus2.mp4" type="video/mp4">
-                                              </video> -->
-
     <nav class="navbar navbar-expand-lg navbar-trans navbar-custom nav-down">
       <a class="navbar-brand" href="#"><img src="logo.png" height="100" class="n-brand" alt="logo"></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
@@ -415,14 +365,11 @@ if ($(this).is(":in-viewport")) {
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav navbar-center">
-
           <li class="nav-item">
             <a class="nav-link" href="#projects">Projects</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#activities">Activities</a>
-
-            <!-- <a class="nav-link" href="#activities">Activities <span class="sr-only"></span>(current)</span></a> -->
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#blog">Blog</a>
@@ -471,10 +418,6 @@ if ($(this).is(":in-viewport")) {
 
       <!-- </div> -->
     </nav>
-
-
-
-
 
     <div class='overlay' id='overlay'>
       <nav class='overlay-menu' id="fulloverlay">
@@ -528,12 +471,8 @@ if ($(this).is(":in-viewport")) {
                 <a href="https://youtube.com/channel/UCo3tWi0U3UU5hNGSssx1qug" target="​_blank"><i class="fab fa-youtube fa-xs"> </i></a>
               </ul>
             </div>
-
           </div>
         </div>
-
-
-
       </nav>
     </div>
 
@@ -542,16 +481,12 @@ if ($(this).is(":in-viewport")) {
 
 
     <div class="bottom">
-
-
       <span class="b1">we are</span>
       <span class="b2">asme manipal.</span>
       <div class="bottom-desc">
         We are a Premier Interdisciplinary Technical Club of MIT, Manipal. Experience of over half a decade and a
         pedigree of more than 140 years comes into fruition here.
       </div>
-
-
     </div>
 
     <!-- <div class="wa-push">
@@ -570,10 +505,7 @@ if ($(this).is(":in-viewport")) {
             style="--i:13;">.</span></span>
       </div>
     </div> -->
-
-
   </header>
-
 
 
   <div class="container filler col-12"></div>
@@ -919,24 +851,15 @@ if ($(this).is(":in-viewport")) {
 
 
   <div class="container filler col-12"></div>
-
   <section class="activities" id="activities">
-
-    <!-- <div class="next"> -->
     <div class="container-fluid fade2">
-      <!-- <div class="row"> -->
       <span id="pro2">ACTIVITIES</span>
       <div class="container h-0 mr-auto"></div><br>
       <div class="container-fluid table-display">
         <img class="proj" src="images/activities.png" alt="act-head">
       </div>
-      <!-- </div> -->
     </div>
-    <div class="container-fluid fade3">
-
-    </div>
-    <!-- </div> -->
-
+    <div class="container-fluid fade3"></div>
 
     <div class="container-fluid act act-main" style="padding: 0 !important;">
       <div class="activities-head">ACTIVITIES</div>
@@ -1370,11 +1293,7 @@ if ($(this).is(":in-viewport")) {
 
     <!-- <div class="sp-middle"> -->
       <div class="snow">
-
-
         <!-- <div class="sp-wrap"><span class="sponsors-title">SPONSORS</span></div> -->
-
-
 
         <img alt="snowflakes" src="images/paisa.png" class="snowExample"
           style="width: 70px; -webkit-animation-delay: 0s;animation-delay: 0s;-webkit-animation-duration: 10.5s;animation-duration: 10.5s; left:50%; margin-left: -50%;" />
@@ -1521,12 +1440,11 @@ if ($(this).is(":in-viewport")) {
                 <td style="text-align: center; vertical-align: bottom; width: 50%;">
                   <figure>
                     <a href="#">
-                      <div class="i1"><img alt="idp" src="images/idp.jpeg" width="70%" style="justify-content: center" /> </div>
+                      <div class="i1"><img alt="idp" src="images/idp.jpeg" width="70%" style="justify-content: center" /></div>
                     </a>
                     <figcaption class="caption c1">IDP EDUCATION INDIA</figcaption>
                   </figure>
                 </td>
-
                 <td style="text-align: center; vertical-align: bottom; width: 50%;">
                   <figure>
                     <a href="#">
@@ -1536,120 +1454,61 @@ if ($(this).is(":in-viewport")) {
                   </figure>
                 </td>
               </tr>
-
             </table>
-            <!-- </div> -->
             <div style="position: absolute; left: 50%; width: 100%; height: 1.px; bottom: 0;">
             <center>
             <hr class="sp-hr-before" style="position: relative; bottom: 0; left: -50%; transform: translateX(-50%);">
             </center>
             </div>
             </div>
-
-
       </div>
-
-
-    <!-- </div> -->
-
-
 
 
 
   </section>
   <div class="container filler col-12"></div>
-
   <section class="testimonials" id="testimonials">
-
     <div class="testi-header">TESTIMONIALS</div>
-
     <span class="testi-head">TESTIMONIALS</span>
-
     <div class="hero-body">
       <div class="container">
         <div id="customers-testimonials" class="owl-carousel">
-
-          <div class="box">
-            <div class="level-item">
-              <div>
-                <div class="t-grad  avatar1">
-
-                  <img class="avatar" alt="neha" src="images/neha.jpg">
-                </div>
-
-              </div>
-            </div>
-          </div>
-
-          <div class="box">
-            <div class="level-item">
-              <div>
-                <div class="t-grad avatar2">
-
-                  <img class="avatar" alt="nishant" src="images/trivim (2).jpeg">
-                </div>
-
-
-              </div>
-            </div>
-          </div>
-
-          <div class="box">
-            <div class="level-item">
-              <div>
-                <div class="t-grad avatar3">
-
-                  <img alt="shijo" class="avatar " src="images/shijo.jpg">
-                </div>
-
-
-              </div>
-            </div>
-          </div>
-
-
-
+          <div class="box level-item t-grad avatar1">
+            <img class="avatar" alt="neha" src="images/neha.jpg"></div>
+          <div class="box level-item t-grad avatar1">
+            <img class="avatar" alt="nishant" src="images/trivim (2).jpeg"></div>
+          <div class="box level-item t-grad avatar1">
+            <img class="avatar" alt="shijo" src="images/shijo.jpg"></div>
         </div>
       </div>
     </div>
 
     <!-- TESTIMONIALS -->
     <section class="testimonials2">
-      <div class="container">
+      <div class="container" class="row" class="col-sm-12">
+        <div id="customers-testimonials2" class="owl-carousel">
 
-        <div class="row">
-          <div class="col-sm-12">
-            <div id="customers-testimonials2" class="owl-carousel">
-
-              <!--TESTIMONIAL 1 -->
-              <div class="item">
-
-                <div class="t-name">Neha Agrawal</div>
-                <div class="t-pos">Founder, WiseUp Communications</div>
-                <div class="more" id="t1">"It has always been our honor to work closely with ASME Manipal's vibrant team who are
-                  really creative and do things for the betterment of students."
-                </div>
-              </div>
-              <div class="item">
-
-                <div class="t-name">Nishant Kumar</div>
-                <div class="t-pos">Founder, TRIVIM-D WORKS</div>
-
-                <div class="more2">
-                  "ASME Manipal is one of the most innovative organizations of MIT Manipal. The team members are
-                  dedicated and extremely hardworking."
-                </div>
-              </div>
-              <div class="item">
-                <div class="t-name">Shijo Mon Yesudhas</div>
-                <div class="t-pos">Senior Executive- Business Development, IDP India</div>
-                <div class="more3">"ASME Manipal Student Chapter is doing brilliant work for the Manipal student
-                  community."
-                </div>
-
-
-              </div>
-
+          <!--TESTIMONIAL 1 -->
+          <div class="item">
+            <div class="t-name">Neha Agrawal</div>
+            <div class="t-pos">Founder, WiseUp Communications</div>
+            <div class="more" id="t1">"It has always been our honor to work closely with ASME Manipal's vibrant team who are
+              really creative and do things for the betterment of students."
+            </div>
+          </div>
+          <div class="item">
+            <div class="t-name">Nishant Kumar</div>
+            <div class="t-pos">Founder, TRIVIM-D WORKS</div>
+            <div class="more2">
+              "ASME Manipal is one of the most innovative organizations of MIT Manipal. The team members are
+              dedicated and extremely hardworking."
+            </div>
+          </div>
+          <div class="item">
+            <div class="t-name">Shijo Mon Yesudhas</div>
+            <div class="t-pos">Senior Executive- Business Development, IDP India</div>
+            <div class="more3">"ASME Manipal Student Chapter is doing brilliant work for the Manipal student
+              community."
             </div>
           </div>
         </div>
@@ -1659,17 +1518,7 @@ if ($(this).is(":in-viewport")) {
 
   </section>
 
-
-
-
   <div class="container filler col-12"></div>
-
-
-
-
-
-
-
 
   <footer id="hello">
     <div class="row" style="height: 80vh; position: relative; padding: 0px; margin: 0px">
@@ -1721,8 +1570,7 @@ if ($(this).is(":in-viewport")) {
         </div>
       </div>
       <div class="col-xs-6 col-md-6 map">
-        <img alt="map" src="css/map.png"
-          style="height: 80vh; max-width: 100%; width: auto; position: top 0px right -50px; position:relative; float: right;">
+        <img alt="map" src="css/map.png" style="height: 80vh; max-width: 100%; width: auto; position: top 0px right -50px; position:relative; float: right;">
         <!-- <div class="container" style="height: 80vh; padding: 0; position: absolute;"> -->
         <!-- <div class="row" style="height: 80vh; padding: 0;"> -->
         <!-- <a href="#" class="intro-banner-vdo-play-btn pinkBg" target="_blank">
@@ -1730,12 +1578,7 @@ if ($(this).is(":in-viewport")) {
             <span class="ripple pinkBg"></span>
           </a> -->
 
-        <!-- <a href="https://www.google.com/maps/place/Manipal+Institute+of+Technology/@13.3525321,74.7906337,17z/data=!3m1!4b1!4m5!3m4!1s0x3bbca4a7d2c4edb7:0x8d588d4fb81d861f!8m2!3d13.3525321!4d74.7928224" target="__blank"><div class=pulse></div></a> -->
         <a href="https://goo.gl/maps/Zm2Pzu8Htc5yQKHr7" target="__blank"><div class=pulse></div></a>
-
-        <!-- </div> -->
-        <!-- </div> -->
-
       </div>
       <div class="col-xs-12 f-bottom">
         <div class="row" style="justify-content: center; align-content: center;">
@@ -1766,7 +1609,6 @@ if ($(this).is(":in-viewport")) {
             <li>
               <a href="#testimonials">TESTIMONIALS</a>
             </li>
-
           </ul>
         </div>
       </div>
@@ -1774,39 +1616,27 @@ if ($(this).is(":in-viewport")) {
 
 
 </div>
-
-  <script
-    src="https://cpwebassets.codepen.io/assets/common/stopExecutionOnTimeout-8216c69d01441f36c0ea791ae2d4469f0f8ff5326f00ae2d00e4bb7d20e24edb.js"></script>
-
+  <script src="https://cpwebassets.codepen.io/assets/common/stopExecutionOnTimeout-8216c69d01441f36c0ea791ae2d4469f0f8ff5326f00ae2d00e4bb7d20e24edb.js"></script>
   <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
   <!-- <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery-mousewheel/3.1.12/jquery.mousewheel.js'></script> -->
   <script src='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.js'></script>
-
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
     integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
     crossorigin="anonymous"></script>
   <!-- <script type="text/javascript" src="https://maps.google.com/maps/api/js?sensor=false"></script> -->
-
   <script src='https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/js/swiper.jquery.min.js'></script>
   <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
   <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://nicesnippets.com/demo/easy_slide.js"></script>
   <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script>
   <script src='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.1/owl.carousel.min.js'></script>
   <script src='https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.1/js/swiper.min.js'></script>
-
   <script src='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.js'></script>
-
-
   <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
   <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-
   <script src='https://cdnjs.cloudflare.com/ajax/libs/Readmore.js/2.2.0/readmore.min.js'></script>
-  <script
-    src="https://cpwebassets.codepen.io/assets/common/stopExecutionOnTimeout-8216c69d01441f36c0ea791ae2d4469f0f8ff5326f00ae2d00e4bb7d20e24edb.js"></script>
-
+  <script src="https://cpwebassets.codepen.io/assets/common/stopExecutionOnTimeout-8216c69d01441f36c0ea791ae2d4469f0f8ff5326f00ae2d00e4bb7d20e24edb.js"></script>
   <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
   <!-- <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery-mousewheel/3.1.12/jquery.mousewheel.js'></script> -->
   <script src='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.js'></script>
@@ -1948,127 +1778,6 @@ if ($(this).is(":in-viewport")) {
 
 
   </script>
-  <!-- <script id="rendered-js">
-    var $slider = $('.slideshow .slider'),
-        maxItems = $('.item', $slider).length,
-        dragging = false,
-        tracking,
-        rightTracking;
-
-    $sliderRight = $('.slideshow').clone().addClass('slideshow-right').appendTo($('.split-slideshow'));
-
-    rightItems = $('.item', $sliderRight).toArray();
-    reverseItems = rightItems.reverse();
-    $('.slider', $sliderRight).html('');
-    for (i = 0; i < maxItems; i++) {
-        if (window.CP.shouldStopExecution(0)) break;
-        $(reverseItems[i]).appendTo($('.slider', $sliderRight));
-    } window.CP.exitedLoop(0);
-
-    var $flagg = 0;
-$(window).on("load", function () {
-
-    $(window).scroll(function () {
-
-
-
-        var windowBottom = $(this).scrollTop() + $(this).innerHeight();
-        $(".projects").each(function () {
-
-
-            /* Check the location of each desired element */
-            var objectBottom = $(this).offset().top + $(this).outerHeight();
-
-            /* If the element is completely within bounds of the window, fade it in */
-            if ($(this).offset().top < windowBottom) { //object comes into view (scrolling down)
-                $(".slideshow-left").slick('slickPlay');
-
-
-                    $flagg = 1;
-            }
-        });
-    }).scroll(); //invoke scroll-handler on page-load
-});
-    $slider.addClass('slideshow-left');
-    $('.slideshow-left').slick({
-        autoplay: false,
-        autoplaySpeed: 1000,
-        vertical: true,
-        verticalSwiping: true,
-        arrows: false,
-        infinite: true,
-        dots: true,
-        speed: 500,
-        pauseOnHover: false,
-        pauseOnFocus: false,
-        withInertia: true,
-        freeModeMomentumRatio: 5,
-        grabCursor: true,
-        //   prevArrow: '<div class="slick-prev">prev</div>',
-        //     nextArrow: '<div class="slick-next">next</div>',
-        cssEase: 'cubic-bezier(0.7, 0, 0.3, 1)'
-    }).
-        on('beforeChange', function (event, slick, currentSlide, nextSlide) {
-
-            if (currentSlide > nextSlide && nextSlide == 0 && currentSlide == maxItems - 1) {
-                $('.slideshow-right .slider').slick('slickGoTo', -1);
-                $('.slideshow-text').slick('slickGoTo', maxItems);
-            } else if (currentSlide < nextSlide && currentSlide == 0 && nextSlide == maxItems - 1) {
-                $('.slideshow-right .slider').slick('slickGoTo', maxItems);
-                $('.slideshow-text').slick('slickGoTo', -1);
-            } else {
-                $('.slideshow-right .slider').slick('slickGoTo', maxItems - 1 - nextSlide);
-                $('.slideshow-text').slick('slickGoTo', nextSlide);
-            }
-        }).on("mousewheel", function (event) {
-            event.preventDefault();
-            if (event.deltaX > 0 || event.deltaY < 0) {
-                $(this).slick('slickNext');
-            } else if (event.deltaX < 0 || event.deltaY > 0) {
-                $(this).slick('slickPrev');
-            };
-        }).on('mousedown touchstart', function () {
-            dragging = true;
-            tracking = $('.slick-track', $slider).css('transform');
-            tracking = parseInt(tracking.split(',')[5]);
-            rightTracking = $('.slideshow-right .slick-track').css('transform');
-            rightTracking = parseInt(rightTracking.split(',')[5]);
-        }).on('mousemove touchmove', function () {
-            if (dragging) {
-                newTracking = $('.slideshow-left .slick-track').css('transform');
-                newTracking = parseInt(newTracking.split(',')[5]);
-                diffTracking = newTracking - tracking;
-                $('.slideshow-right .slick-track').css({ 'transform': 'matrix(1, 0, 0, 1, 0, ' + (rightTracking - diffTracking) + ')' });
-            }
-        }).on('mouseleave touchend mouseup', function () {
-            dragging = false;
-        });
-
-    $('.slideshow-right .slider').slick({
-        swipe: false,
-        vertical: true,
-        arrows: true,
-        infinite: true,
-        speed: 500,
-        cssEase: 'cubic-bezier(0.7, 0, 0.3, 1)',
-        initialSlide: maxItems - 1,
-        grabCursor: true,
-
-    });
-
-    $('.slideshow-text').slick({
-        swipe: false,
-        vertical: true,
-        arrows: true,
-        infinite: true,
-        speed: 500,
-        cssEase: 'cubic-bezier(0.7, 0, 0.3, 1)',
-        grabCursor: true,
-
-    });
-//# sourceURL=pen.js
-</script> -->
-
 
 </div>
 

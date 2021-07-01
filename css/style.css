@@ -196,7 +196,7 @@ header {
 
   .navbar{
   /* transition: 0.5s; */
-  z-index: 99;
+  z-index: 95;
   position: fixed !important;
   top: 0px !important;
   width: 100%;
