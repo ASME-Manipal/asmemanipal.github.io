@@ -271,6 +271,28 @@
 //     $('body').css('overflow', 'scroll');
 // }, 10000); // 5 seconds
 
+  'use strict';
+
+   var c, currentScrollTop = 0,
+       navbar = $('.navbar');
+
+   $(window).scroll(function () {
+      var a = $(window).scrollTop();
+      var b = navbar.height();
+
+      currentScrollTop = a;
+
+      if (c < currentScrollTop && a > b + b) {
+        navbar.addClass("scrollUp");
+      } else if (c > currentScrollTop && !(a <= b)) {
+        navbar.removeClass("scrollUp");
+      }
+      c = currentScrollTop;
+
+     console.log(a);
+  });
+
+
 setTimeout(function(){
     $('html, body')
     .css({
@@ -286,8 +308,8 @@ if ($(this).is(":in-viewport")) {
   $(this)[0].pause();
 }
 })
-
 });
+
 
 </script>
 
@@ -385,7 +407,7 @@ if ($(this).is(":in-viewport")) {
                                               <source src="images/aboutus2.mp4" type="video/mp4">
                                               </video> -->
 
-    <nav class="navbar navbar-expand-lg navbar-trans navbar-custom">
+    <nav class="navbar navbar-expand-lg navbar-trans navbar-custom nav-down">
       <a class="navbar-brand" href="#"><img src="logo.png" height="100" class="n-brand" alt="logo"></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
