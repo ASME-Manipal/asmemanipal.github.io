@@ -147,25 +147,20 @@
   <div class="mac">
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <!-- <script src="node_modules/is-in-viewport/lib/isInViewport.js"></script> -->
   <script>
   $(document).ready(function() {
 //     $('body').css('overflow', 'hidden');
 // setTimeout(function() {
 //     $('body').css('overflow', 'scroll');
 // }, 10000); // 5 seconds
-
   'use strict';
-
    var c, currentScrollTop = 0,
        navbar = $('.navbar');
-
    $(window).scroll(function () {
       var a = $(window).scrollTop();
       var b = navbar.height();
 
       currentScrollTop = a;
-
       if (c < currentScrollTop && a > b + b) {
         navbar.addClass("scrollUp");
       } else if (c > currentScrollTop && !(a <= b)) {
@@ -176,7 +171,6 @@
      console.log(a);
   });
 
-
 setTimeout(function(){
     $('html, body')
     .css({
@@ -185,8 +179,6 @@ setTimeout(function(){
   },
   // 17500);
  10);
-
-
     $('video').each(function(){
 if ($(this).is(":in-viewport")) {
   $(this)[0].play();
@@ -195,10 +187,7 @@ if ($(this).is(":in-viewport")) {
 }
 })
 });
-
-
 </script>
-
   <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/ScrollMagic.js" integrity="sha512-UgS0SVyy/0fZ0i48Rr7gKpnP+Jio3oC7M4XaKP3BJUB/guN6Zr4BjU0Hsle0ey2HJvPLHE5YQCXTDrx27Lhe7A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
@@ -1390,7 +1379,6 @@ if ($(this).is(":in-viewport")) {
       cssEase: 'cubic-bezier(0.7, 0, 0.3, 1)',
       initialSlide: maxItems - 1,
       grabCursor: true,
-
     });
 
     $('.slideshow-text').slick({
@@ -1401,7 +1389,6 @@ if ($(this).is(":in-viewport")) {
       speed: 500,
       cssEase: 'cubic-bezier(0.7, 0, 0.3, 1)',
       grabCursor: true,
-
     });
   </script>
 </div>
