@@ -2,24 +2,12 @@
 
 
 @keyframes gradients {
-    0% {
-      background-position: 0 0;
-    }
-    25% {
-      background-position: 50% 0;
-    }
-    50% {
-      background-position: 90% 0;
-    }
-    60% {
-      background-position: 60%;
-    }
-    75% {
-      background-position: 40%;
-    }
-    100% {
-      background-position: 0 0;
-    }
+    0% {background-position: 0 0;}
+    25% {background-position: 50% 0;}
+    50% {background-position: 90% 0;}
+    60% {background-position: 60%;}
+    75% {background-position: 40%;}
+    100% {background-position: 0 0;}
   }
 
   .o-credits {
@@ -222,30 +210,30 @@ body.overlay.open{
     opacity: 0;
     /* margin-bottom: 10px; */
   }
-  .overlay .top-right ul li a {
-    display: block;
-    position: relative;
-    color: #FFF;
-    text-decoration: none;
-    overflow: hidden;
+.overlay .top-right ul li a {
+  display: block;
+  position: relative;
+  color: #FFF;
+  text-decoration: none;
+  overflow: hidden;
+}
+
+.top-left{
+    font-family: 'Raleway';
+    opacity: 0;
+    font-size: 1rem;
+      position: relative;
+      padding-left: 7% !important;
   }
 
-  .top-left{
-      font-family: 'Raleway';
-      opacity: 0;
-      font-size: 1rem;
-        position: relative;
-        padding-left: 7% !important;
-    }
+.top-left-content{
+    position: absolute;
+    bottom: 0;
+}
 
-  .top-left-content{
-      position: absolute;
-      bottom: 0;
-  }
-
-  .top-left img{
-    height: 5rem;
-  }
+.top-left img{
+  height: 5rem;
+}
 
   /* .overlay .top-right li a:after {
     content: '';
@@ -366,43 +354,37 @@ body.overlay.open{
 
 .social-media-icons a i:hover{
 	color: white !important;
-}
+  }
 
 
 .overlay.open .social-media-icons a {
+  -webkit-animation: fadeInBottom 0.7s ease forwards;
+  animation: fadeInBottom 0.7s ease forwards;
+  -webkit-animation-delay: 0.35s;
+  animation-delay: 0.35s;
+  }
+.overlay.open .social-media-icons a:nth-of-type(2) {
+    -webkit-animation-delay: 0.4s;
+    animation-delay: 0.4s;
 
+  }
+.overlay.open .social-media-icons a:nth-of-type(3) {
+    -webkit-animation-delay: 0.45s;
+    animation-delay: 0.45s;
+
+  }
+.overlay.open .social-media-icons a:nth-of-type(4) {
+    -webkit-animation-delay: 0.5s;
+    animation-delay: 0.5s;
+
+  }
+.overlay.open .social-media-icons a:nth-of-type(5) {
+    -webkit-animation-delay: 0.55s;
+    animation-delay: 0.55s;
+  }
+.overlay.open .top-left {
     -webkit-animation: fadeInBottom 0.7s ease forwards;
-            animation: fadeInBottom 0.7s ease forwards;
-            -webkit-animation-delay: 0.35s;
-            animation-delay: 0.35s;
-
+    animation: fadeInBottom 0.7s ease forwards;
+    -webkit-animation-delay: 0.35s;
+    animation-delay: 0.35s;
   }
-  .overlay.open .social-media-icons a:nth-of-type(2) {
-      -webkit-animation-delay: 0.4s;
-      animation-delay: 0.4s;
-
-  }
-  .overlay.open .social-media-icons a:nth-of-type(3) {
-      -webkit-animation-delay: 0.45s;
-            animation-delay: 0.45s;
-
-  }
-  .overlay.open .social-media-icons a:nth-of-type(4) {
-      -webkit-animation-delay: 0.5s;
-            animation-delay: 0.5s;
-
-  }
-  .overlay.open .social-media-icons a:nth-of-type(5) {
-      -webkit-animation-delay: 0.55s;
-            animation-delay: 0.55s;
-    }
-
-
-    .overlay.open .top-left {
-
-        -webkit-animation: fadeInBottom 0.7s ease forwards;
-                animation: fadeInBottom 0.7s ease forwards;
-                -webkit-animation-delay: 0.35s;
-                animation-delay: 0.35s;
-
-      }

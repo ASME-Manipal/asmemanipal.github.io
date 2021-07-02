@@ -3,10 +3,7 @@
   background-color: #1c1b1b;
   position: relative;
   overflow: hidden !important;
-
 }
-
-
 
 .load-overlay{
   position: fixed;
@@ -90,48 +87,19 @@
     animation-delay: 7.5s;
 }
 
-@-webkit-keyframes hr-line {
-    0% {
-      -webkit-transform: translate(10vw, 200px);
-    }
-
-    50% {
-        -webkit-transform: translate(10vw, 0);
-    }
-
-    100% {
-      opacity: 1;
-
-    }
+@-webkit-keyframes hr-line {0% {-webkit-transform: translate(10vw, 200px);}
+    50% {-webkit-transform: translate(10vw, 0);}
+    100% {opacity: 1;}
   }
 
-  @-moz-keyframes hr-line {
-    0% {
-      -moz-transform: translate(10vw, 200px);
-    }
-    50% {
-        -moz-transform: translate(10vw, 0);
-    }
-
-    100% {
-      opacity: 1;
-    }
+  @-moz-keyframes hr-line {0% {-moz-transform: translate(10vw, 200px);}
+    50% {-moz-transform: translate(10vw, 0);}
+    100% {opacity: 1;}
   }
 
-  @keyframes hr-line {
-    0% {
-        transform: translate(10vw, 200px);
-      }
-
-      50% {
-        transform: translate(10vw, 0);
-      }
-
-      100% {
-        /* transform: translate(0, 0,0); */
-        opacity: 1;
-
-      }
+  @keyframes hr-line {0% {  transform: translate(10vw, 200px);}
+      50% {transform: translate(10vw, 0);}
+      100% {opacity: 1;}
   }
 
 
@@ -144,7 +112,6 @@
     /* margin-top: -5%;
     margin-left: 40.8%; */
     width: 250px;
-
   }
 
   .slide-right .right-inner {
@@ -190,7 +157,6 @@
   }
 
   .wa-push .wa-inner {
-
       /* font-weight: bold; */
       align-items: center;
       justify-content: center;
@@ -201,33 +167,13 @@
       animation-delay: 14.1s;
   }
 
-  @keyframes push-up {
-
-    100%{
-      transform: translateY(0px);
-    }
-
-  }
-
-  @keyframes push-up2 {
-
-    100%{
-      transform: translateY(-24px);
-    }
-
-  }
+  @keyframes push-up {100%{transform: translateY(0px);}}
+  @keyframes push-up2 {100%{transform: translateY(-24px);}}
 
   @keyframes content-show {
-    0% {
-      opacity: 0;
-    }
-    95%{
-      opacity: 0;
-    }
-    100%{
-      opacity: 1;
-    }
-
+    0% {opacity: 0;}
+    95%{opacity: 0;}
+    100%{opacity: 1;}
   }
 
 
@@ -281,89 +227,26 @@
   }
 
   @keyframes slide {
-
-    0% {
-      opacity: 0;
-      margin-top: -900px;
-    }
-
-    1.5% {
-      opacity: 1;
-      margin-top: -800px;
-    }
-
-    11.1% {
-      margin-top: -800px;
-    }
-
-    12.6% {
-      margin-top: -700px;
-    }
-
-    22.2% {
-      margin-top: -700px;
-    }
-
-    23.7% {
-      margin-top: -600px;
-    }
-
-    33.3% {
-      margin-top: -600px;
-    }
-
-    34.8% {
-      margin-top: -500px;
-    }
-
-    44.4% {
-      margin-top: -500px;
-    }
-
-    45.9% {
-      margin-top: -400px;
-    }
-
-    55.5% {
-      margin-top: -400px;
-    }
-
-    57% {
-      margin-top: -300px;
-    }
-
-    66.6% {
-      margin-top: -300px;
-    }
-
-    68.1% {
-      margin-top: -200px;
-    }
-
-    77.7% {
-      margin-top: -200px;
-    }
-
-    79.2% {
-      margin-top: -100px;
-    }
-
-    88.8% {
-      margin-top: -100px;
-    }
-
-    90.3% {
-      margin-top: 0px;
-      opacity: 0;
-    }
-
-    99.9% {
-      margin-top: 0px;
-      opacity: 0;
-    }
-    100%{
-      opacity: 0;
-    }
+    0% {opacity: 0;margin-top: -900px;}
+    1.5% {opacity: 1;margin-top: -800px;}
+    11.1% {margin-top: -800px;}
+    12.6% {margin-top: -700px;}
+    22.2% {margin-top: -700px;}
+    23.7% {margin-top: -600px;}
+    33.3% {margin-top: -600px;}
+    34.8% {margin-top: -500px;}
+    44.4% {margin-top: -500px;}
+    45.9% {margin-top: -400px;}
+    55.5% {margin-top: -400px;}
+    57% {margin-top: -300px;}
+    66.6% {margin-top: -300px;}
+    68.1% {margin-top: -200px;}
+    77.7% {margin-top: -200px;}
+    79.2% {margin-top: -100px;}
+    88.8% {margin-top: -100px;}
+    90.3% {margin-top: 0px;opacity: 0;}
+    99.9% {margin-top: 0px;opacity: 0;}
+    100%{opacity: 0;}
   }
   .jXTuDa {
     padding-left: 0px;
@@ -402,11 +285,8 @@ body {
     color: rgb(33, 37, 41);
     text-align: left;
 }
-element {
-    --vh: 3.5px;
-}
 
-
+element {--vh: 3.5px;}
 
 .wavy {
   position: relative;
@@ -416,9 +296,7 @@ element {
   letter-spacing: .1rem;
 }
 
-.space {
-  margin-top: -7%;
-}
+.space {margin-top: -7%;}
 
 .wavy span {
   opacity: 0;
@@ -442,14 +320,7 @@ element {
 @keyframes animate {
   0% {
     opacity: 0;
-    transform: translateY(calc(15.5px + .2px * var(--i)));
-  }
-
-  /* 70% {
-    opacity: 1;
-    transform: translateY(-3.5px);
-  } */
-
+    transform: translateY(calc(15.5px + .2px * var(--i)));}
   100% {
     opacity: 1;
     transform: translateY(0px);

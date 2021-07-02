@@ -11,30 +11,22 @@
      background-color: #1c1b1b;
       overflow: hidden;
        position: relative;
-
        /* top: 0; */
     }
 
 .snowExample{
     z-index: 0;
     position: absolute; top: -200px; opacity: 1; text-align: center;
-
-animation: SnowExampleSlide ease-in infinite;
-
--webkit-animation: SnowExampleSlide ease-in infinite;
-
--moz-animation: SnowExampleSlide ease-in infinite;
-
--webkit-animation-fill-mode: forwards;
-
--moz-animation-fill-mode: forwards;
-
-animation-fill-mode: forwards;}
+    animation: SnowExampleSlide ease-in infinite;
+    -webkit-animation: SnowExampleSlide ease-in infinite;
+    -moz-animation: SnowExampleSlide ease-in infinite;
+    -webkit-animation-fill-mode: forwards;
+    -moz-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+  }
 
 @keyframes SnowExampleSlide {from {position: absolute; top: -50px;} to {position: absolute; top: 633px;}}
 
 @-webkit-keyframes SnowExampleSlide {from {position: absolute; top: -50px;} to {position: absolute; top: 633px;}}
 
 @-moz-keyframes SnowExampleSlide {from {position: absolute; top: -50px;} to {position: absolute; top: 633px;}}
-
-

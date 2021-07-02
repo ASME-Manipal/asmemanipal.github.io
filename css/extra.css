@@ -2,7 +2,7 @@ Reset
 /* html {
     box-sizing: border-box;
   }
-  
+
   *, *:before, *:after {
     box-sizing: inherit;
   } */
@@ -180,21 +180,11 @@ div.highway-slider ul.highway-lane li.highway-car {
 #infinite div.highway-barrier ul.highway-lane li.highway-car span.fab {
   font-size: 65px;
 }
-#red {
-  background: #cb5454;
-}
-#orange {
-  background: #cb8054;
-}
-#yellow {
-  background: #cbba54;
-}
-#green {
-  background: #69b46e;
-}
-#blue {
-  background: #6091b0;
-}
+#red {background: #cb5454;}
+#orange {background: #cb8054;}
+#yellow {background: #cbba54;}
+#green {background: #69b46e;}
+#blue {background: #6091b0;}
 
 /*endof infinite */
 
@@ -331,9 +321,6 @@ div.highway-slider ul.highway-lane li.highway-car {
   cursor: pointer;
 }
 
-
-
-
 .tech-slideshow {
   height: 200px;
   max-width: 800px;
@@ -367,16 +354,8 @@ div.highway-slider ul.highway-lane li.highway-car {
 }
 
 @keyframes moveSlideshow {
- 
-  100% { 
-    transform: translateX(-66.6666%);  
+
+  100% {
+    transform: translateX(-66.6666%);
   }
 }
-
-
-
-
-
-
-
- */
