@@ -186,20 +186,20 @@ header {
   }
 
   .navbar {
-    padding: 0;
+    /* padding: 0; */
     background: transparent;
     font-family: 'Raleway' !important;
     /*    position: absolute;
   */
   }
 
-  .navbar{
+  /* .navbar{ */
   /* transition: 0.5s; */
-  z-index: 95;
-  position: fixed !important;
-  top: 0px !important;
-  width: 100%;
-}
+  /* z-index: 95;
+  position: fixed !important; */
+  /* top: 0px !important; */
+  /* width: 100%; */
+/* } */
 
   .navbar .navbar-brand {
     display: inline-block;
@@ -368,12 +368,11 @@ header {
 
 
 
-.shrink {
+/* .shrink {
   width: 100%;
   background: rgba(28, 27, 27) !important;
   transition: 0.5s;
   padding-top: 0em;
-  /* z-index: 99999999999999999999999999999999999999999999999999999999; */
   height: 5em;
 }
 
@@ -385,7 +384,7 @@ header {
 
   height: 2.5em !important;
 }
-
+ */
 
 
 /*$font: 'Poppins', sans-serif;*/
