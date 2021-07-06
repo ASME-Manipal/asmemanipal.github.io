@@ -180,8 +180,7 @@ header {
 
 
 @media only screen and (min-width: 960px) {
-
-  .navbar .navbar-nav .nav-link {
+ .navbar-nav .nav-link {
     padding: 1em 0.7em;
     font-weight: 100 !important;
   }
@@ -379,7 +378,7 @@ header {
 }
 
 .scrollUp{
-  transform: translateY(-80px);
+  transform: translateY(-100px);
 }
 .shrink .n-brand{
   transition: 0.5s;
