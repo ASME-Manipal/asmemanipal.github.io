@@ -1,5 +1,3 @@
-
-
 var $slider = $('.slideshow .slider'),
   maxItems = $('.item', $slider).length,
   dragging = false,
@@ -7,7 +5,6 @@ var $slider = $('.slideshow .slider'),
   rightTracking;
 
 $sliderRight = $('.slideshow').clone().addClass('slideshow-right').appendTo($('.split-slideshow'));
-
 rightItems = $('.item', $sliderRight).toArray();
 reverseItems = rightItems.reverse();
 $('.slider', $sliderRight).html('');

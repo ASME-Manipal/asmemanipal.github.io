@@ -5,8 +5,12 @@
 //
 setTimeout(function(){
     $('.slide-right').addClass('slide-hide');
-}, 13500);
+  },
+  5000);
+  // 13500);
 
 setTimeout(function(){
     $('.counter').addClass('counter-hide');
-}, 13500);
+  },
+  // 5000);
+  13500);

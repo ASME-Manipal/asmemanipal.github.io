@@ -1,5 +1,4 @@
 $(document).ready(function () {
-
     // $('#toggle').click(function () {
     //     $(this).toggleClass('active');
     //     $('#overlay').toggleClass('open');
@@ -8,21 +7,15 @@ $(document).ready(function () {
     //     $('#toggle').toggleClass('active');
     //     $('#overlay').toggleClass('open');
     // });
-
-
     //     if ($('#toggle').hasClass('active')) {
-
     //         $('body').css('overflow','auto !important');
     //         $('body').css('position','fixed');
-
     //     }
-        
     // let toggleOverlay = () => {
     //     $('#toggle').toggleClass('active');
-    //     $('#overlay').toggleClass('open');  
+    //     $('#overlay').toggleClass('open');
     //     $('body').toggleClass('no-scroll');
     //   }
-      
     //   $("#toggle, .fulloverlay a").on("click", toggleOverlay);
     $('#toggle').click(function () {
         $(this).toggleClass('active');
@@ -33,8 +26,5 @@ $(document).ready(function () {
         $('#toggle').toggleClass('active');
         $('#overlay').toggleClass('open');
         $('body').toggleClass('no-scroll');
-
      });
-   
 });
-

@@ -2,49 +2,32 @@
 $(window).on("load", function () {
 
   $(window).scroll(function () {
-      
+
 
       var windowBottom = $(this).scrollTop() + $(this).innerHeight();
       $('.members').each(function () {
-          
-
           /* Check the location of each desired element */
           var objectBottom = $(this).offset().top + $(this).outerHeight();
-
           /* If the element is completely within bounds of the window, fade it in */
           if ($(this).offset().top < windowBottom) { //object comes into view (scrolling down)
-                 
-                  $('.t-head').addClass('t-animation');
-
-          }
+                  $('.t-head').addClass('t-animation');}
       });
   }).scroll(); //invoke scroll-handler on page-load
-  
 });
 
 /* fade in images */
 /* meet the team side heading */
 $(window).on("load", function () {
-
   $(window).scroll(function () {
-      
-
       var windowBottom = $(this).scrollTop() + $(this).innerHeight();
       $('.fadein-team').each(function () {
-          
-
           /* Check the location of each desired element */
           var objectBottom = $(this).offset().top + $(this).outerHeight();
-
           /* If the element is completely within bounds of the window, fade it in */
           if ($(this).offset().top < windowBottom) { //object comes into view (scrolling down)
-                 
-                  $('.members').addClass('mytable');
-                  
-          }
+                  $('.members').addClass('mytable');}
       });
   }).scroll(); //invoke scroll-handler on page-load
-  
 });
 
 $(document).on("scroll", function () {
@@ -104,7 +87,7 @@ $(document).on("scroll", function () {
 //   //   $(".team-c").css("height: 550px !important");
 
 //   // }
-  
+
 // });
 
 $(document).on("scroll", function () {
@@ -123,7 +106,7 @@ $(document).on("scroll", function () {
   //   $(".team-c").css("height: 550px !important");
 
   // }
-  
+
 });
 
 $(document).on("scroll", function () {
@@ -151,7 +134,7 @@ $('.wrap').css('height', $('h1').outerWidth() * 4)
 //   $(function(){
 //     $(window).scroll(function() {    //scroll event is bound to the window object
 //         var $myDiv = $('#myDiv');    //create a jquery variable pointing to the div
-//         var st = $(this).scrollTop();//capture the the number hidden pixels, from view above the scrollable area 
+//         var st = $(this).scrollTop();//capture the the number hidden pixels, from view above the scrollable area
 //         $myDiv.height( st );         //increase the height of the div by the same, number of hidden pixels
 //         if( st == 0 ) {              //this if is not neccessary but just hides div when height is zero
 //             $myDiv.hide();
@@ -162,4 +145,3 @@ $('.wrap').css('height', $('h1').outerWidth() * 4)
 //     .scroll();                     //Fire the scroll even when the page loads; without this the #myDiv would show
 //                                    //even though it's height is zero per the css
 // })
-
