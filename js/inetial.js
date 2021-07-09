@@ -19,7 +19,7 @@ $(document).ready(function() {
     if (c < currentScrollTop && a > b + b) {
       navbar.addClass("scrollUp");
     } else if (c > currentScrollTop && !(a <= b)) {
-      navbar.removeClass("scrollUp");
+      navbar.delay(100000).removeClass("scrollUp");
     }
     c = currentScrollTop;
 
