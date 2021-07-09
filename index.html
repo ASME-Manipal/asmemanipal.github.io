@@ -163,21 +163,29 @@
       var b = navbar.height();
       currentScrollTop = a;
       if (c < currentScrollTop && a > b + b) {
-        navbar.addClass("scrollUp");
+        
+        setTimeout(function(){
+          $(".shrink").addClass("scrollUp");
+        },1000);
       } else if (c > currentScrollTop && !(a <= b)) {
-        navbar.removeClass("scrollUp");
+
+        
+        $(".shrink").removeClass("scrollUp");
+
+
+       
       }
       c = currentScrollTop;
      console.log(a);
   });
 
-setTimeout(function(){
-    $('html, body')
-    .css({
-      'overflow': 'visible'
-    })
-  },
-  11500);
+// setTimeout(function(){
+//     $('html, body')
+//     .css({
+//       'overflow': 'visible'
+//     })
+//   },
+//   11500);
 
  // 10);
     $('video').each(function(){
@@ -208,7 +216,7 @@ if ($(this).is(":in-viewport")) {
 
  -->
 
-  <section class="loading load-overlay">
+  <!-- <section class="loading load-overlay">
     <div class="verticalLine"></div>
     <div class="slide-right">
         <span class="right-inner"> Competition </span>
@@ -249,7 +257,7 @@ if ($(this).is(":in-viewport")) {
             style="--i:13;">.</span></span>
       </div>
     </div>
-  </section>
+  </section> -->
 
   <header>
 
@@ -258,19 +266,23 @@ if ($(this).is(":in-viewport")) {
         <source src="videos/landing.webm" type="video/webm">
       </video>
     </div>
-    <nav class="navbar navbar-expand-lg navbar-trans navbar-custom nav-down">
-      <a class="navbar-brand" href="#"><img src="logo.png" height="100" class="n-brand" alt="logo"></a>
+    
+    <nav class="navbar navbar-expand-lg navbar-trans navbar-custom navbar-fixed-top">
+      <a class="navbar-brand" href="#header"><img src="logo.png" class="n-brand" alt="logo"></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav navbar-center">
+
           <li class="nav-item">
             <a class="nav-link" href="#projects">Projects</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#activities">Activities</a>
+
+            <!-- <a class="nav-link" href="#activities">Activities <span class="sr-only"></span>(current)</span></a> -->
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#blog">Blog</a>
@@ -295,35 +307,13 @@ if ($(this).is(":in-viewport")) {
           <path class="line" d="M 66,32 L 34,68" />
         </svg>
       </div>
-      <!-- </div>   -->
 
-      <!-- <div class="navbar-buttons">
-          <div class="plate plate4 open-menu" id="menu-toggle" aria-label="Menu" aria-expanded="false"
-            aria-controls="menu" onclick="this.classList.toggle('active')">
-
-            <svg class="burger" version="1.1" width="100" height="100" fill="#ffffff" viewBox="0 0 100 100">
-              <path class="line line1" d="M 50,41 H 28" />
-              <path class="line line2" d="M 50,41 H 72" />
-              <path class="line line3" d="M 50,50 H 28" />
-              <path class="line line4" d="M 50,50 H 72" />
-              <path class="line line5" d="M 50,59 H 28" />
-              <path class="line line6" d="M 50,59 H 72" />
-            </svg>
-            <svg class="x" version="1.1" height="100" width="100" viewBox="0 0 100 100">
-              <path class="line" d="M 34,32 L 66,68" />
-              <path class="line" d="M 66,32 L 34,68" />
-            </svg>
-          </div>
-        </div> -->
-
-
-      <!-- </div> -->
-    </nav>
+      
 
     <div class='overlay' id='overlay'>
       <nav class='overlay-menu' id="fulloverlay">
-        <div class="container-fluid" style="height: 100%;">
-          <div class="row" style="height: 100%;">
+        <div class="container-fluid" style="height: 100%; width: 100%;">
+          <div class="row" style="height: 100%; width: 100%;">
             <div class="col-6 top-left" style="height: 80%;">
               <div class="top-left-content">
 
@@ -350,6 +340,7 @@ if ($(this).is(":in-viewport")) {
             </div>
 
             <div class="col-6 top-right" style="height: 80%; padding-bottom: 0;">
+              <!-- <div class="top-right-content"> -->
               <ul>
                 <li><a href="#aboutus">About Us</a></li>
                 <li><a href="#team">Meet The Team</a></li>
@@ -357,6 +348,7 @@ if ($(this).is(":in-viewport")) {
                 <li><a href="#testimonials">Testimonials</a></li>
                 <li><a href="#hello">Contact Us</a></li>
               </ul>
+              <!-- </div> -->
             </div>
 
             <div class="o-credits"><a href="credits.html" target="​_blank">Resource Credits</a></div>
@@ -370,10 +362,20 @@ if ($(this).is(":in-viewport")) {
                 <a href="https://youtube.com/channel/UCo3tWi0U3UU5hNGSssx1qug" target="​_blank"><i class="fab fa-youtube fa-xs"> </i></a>
               </ul>
             </div>
+
           </div>
         </div>
+
+
+
       </nav>
     </div>
+
+
+    </nav>
+
+
+
 
 
 
@@ -1296,7 +1298,7 @@ if ($(this).is(":in-viewport")) {
   <script src="js/footer.js"></script>
   <script src="js/blog.js"></script>
   <script src="js/skill.js"></script>
-  <!-- <script src='js/nav.js'></script> -->
+  <script src='js/nav.js'></script>
 
   <!-- <script src="jQuery.min.js"></script> -->
   <script src='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.js'></script>

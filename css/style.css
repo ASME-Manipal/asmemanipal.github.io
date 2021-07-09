@@ -11,7 +11,7 @@ html{
 
 html,
 body {
-  overflow: hidden;
+  /* overflow: hidden; */
   height: 100%;
   width: 100%;
   margin: 0 !important;
@@ -151,6 +151,48 @@ header {
   height: 100vh;
   background-color: #1c1b1b;
 }
+
+header {
+  overflow: hidden;
+  position: relative;
+  height: 100vh;
+  background-color: #1c1b1b;
+}
+
+.navbar{
+  z-index: 2;
+  position: fixed !important;
+  top: 0px !important;
+  width: 100%;
+}
+
+
+.shrink {
+  width: 100%;
+  background: rgba(28, 27, 27) !important;
+  transition: 0.5s;
+  /* padding-top: 0em; */
+  height: 4.25em;
+}
+
+.scrollUp{
+  transform: translateY(-80px);
+}
+
+
+.shrink .n-brand{
+  padding: 0;
+  transition: 0.5s;
+  height: 2.5em !important;
+}
+  
+ .shrink .button_container{
+    position: absolute;
+    transform: scale(0.8);
+    top: -30% !important;
+
+  } 
+
 
 
 
@@ -354,6 +396,7 @@ header {
   vertical-align: middle;
   margin-bottom: auto;
   margin-top: auto;
+  height: 5em;
 }
 
 
@@ -366,25 +409,6 @@ header {
 */
 }
 
-
-
-/* .shrink {
-  width: 100%;
-  background: rgba(28, 27, 27) !important;
-  transition: 0.5s;
-  padding-top: 0em;
-  height: 5em;
-}
-
-.scrollUp{
-  transform: translateY(-100px);
-}
-.shrink .n-brand{
-  transition: 0.5s;
-
-  height: 2.5em !important;
-}
- */
 
 
 /*$font: 'Poppins', sans-serif;*/
@@ -805,13 +829,13 @@ span {
 
 
 
-@-webkit-keyframes images {0% {-webkit-transform: translate3d(0, 50px, 0);}100% {-webkit-transform: translate3d(0, 0, 0);opacity:;}}
+@-webkit-keyframes images {0% {-webkit-transform: translate3d(0, 50px, 0);}100% {-webkit-transform: translate3d(0, 0, 0);opacity:1;}}
 @-moz-keyframes images {0% {-moz-transform: translate3d(0, 50px, 0);}100% {opacity: 1;}}
 @keyframes images {0% {transform: translate3d(0, 50px, 0);}100% {opacity: 1;}}
 @-webkit-keyframes left-para {0% {-webkit-transform: translate3d(-50px, 0, 0);}100% {opacity: 1;}}
 @-moz-keyframes left-para {0% {-moz-transform: translate3d(-50px, 0, 0);}100% {opacity: 1;}}
 @keyframes left-para {0% {transform: translate3d(-50px, 0, 0);}100% {opacity: 1;}}
-@-webkit-keyframes right-para {0% {-webkit-transform: translate(50px, 0);}100% {-webkit-transform: translate(0, 0);opacity:;}}
+@-webkit-keyframes right-para {0% {-webkit-transform: translate(50px, 0);}100% {-webkit-transform: translate(0, 0);opacity:1;}}
 @-moz-keyframes right-para {0% {-moz-transform: translate(+50px, 0);}100% {opacity: 1;}}
 @keyframes right-para {0% {transform: translate(+50px, 0);}100% {opacity: 1;}}
 
