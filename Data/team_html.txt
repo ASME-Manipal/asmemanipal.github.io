@@ -1,0 +1,78 @@
+
+    <div class="person">
+        <a target="__blank" href="https://www.linkedin.com/in/ishrit-gupta"><img src="images/team/ishrit.webp" alt="ISHRIT GUPTA"></a>
+        <a target="__blank"  href="https://www.linkedin.com/in/ishrit-gupta">
+        <span class="name">ISHRIT GUPTA</span>
+        <span class="posn">PRESIDENT</span></a>
+    </div>
+    
+    <div class="person">
+        <a target="__blank" href="https://www.linkedin.com/in/shrutika-banerjee-9a733a1b6"><img src="images/team/shruthika.webp" alt="SHRUTIKA BANERJEE"></a>
+        <a target="__blank"  href="https://www.linkedin.com/in/shrutika-banerjee-9a733a1b6">
+        <span class="name">SHRUTIKA BANERJEE</span>
+        <span class="posn">VICE PRESIDENT</span></a>
+    </div>
+    
+    <div class="person">
+        <a target="__blank" href="https://www.linkedin.com/in/pawan-ghavle-4a9965192"><img src="images/team/pawan.webp" alt="PAWAN GHAWLE"></a>
+        <a target="__blank"  href="https://www.linkedin.com/in/pawan-ghavle-4a9965192">
+        <span class="name">PAWAN GHAWLE</span>
+        <span class="posn">GENERAL SECRETARY</span></a>
+    </div>
+    
+    <div class="person">
+        <a target="__blank" href="https://www.linkedin.com/in/amod-tirmanwar-691637198"><img src="images/team/amod.webp" alt="AMOD TIRMANWAR"></a>
+        <a target="__blank"  href="https://www.linkedin.com/in/amod-tirmanwar-691637198">
+        <span class="name">AMOD TIRMANWAR</span>
+        <span class="posn">TREASURER</span></a>
+    </div>
+    
+    <div class="person">
+        <a target="__blank" href="https://www.linkedin.com/in/sai-manish-107368169"><img src="images/team/manish.webp" alt="H SAI MANISH"></a>
+        <a target="__blank"  href="https://www.linkedin.com/in/sai-manish-107368169">
+        <span class="name">H SAI MANISH</span>
+        <span class="posn">TECHNICAL HEAD</span></a>
+    </div>
+    
+    <div class="person">
+        <a target="__blank" href="https://www.linkedin.com/in/NamanSharma2k"><img src="images/team/og.webp" alt="NAMAN SHARMA (OG)"></a>
+        <a target="__blank"  href="https://www.linkedin.com/in/NamanSharma2k">
+        <span class="name">NAMAN SHARMA (OG)</span>
+        <span class="posn">CLUB LIAISON/MEDIA HEAD</span></a>
+    </div>
+    
+    <div class="person">
+        <a target="__blank" href="https://www.linkedin.com/in/kmohitrao"><img src="images/team/mohit.webp" alt="MOHIT RAO"></a>
+        <a target="__blank"  href="https://www.linkedin.com/in/kmohitrao">
+        <span class="name">MOHIT RAO</span>
+        <span class="posn">JOINT SECRETARY</span></a>
+    </div>
+    
+    <div class="person">
+        <a target="__blank" href="https://www.linkedin.com/in/raghav-goyal-68632b1ab"><img src="images/team/ragava.webp" alt="RAGHAV GOYAL"></a>
+        <a target="__blank"  href="https://www.linkedin.com/in/raghav-goyal-68632b1ab">
+        <span class="name">RAGHAV GOYAL</span>
+        <span class="posn">HR/GRAPHICS HEAD</span></a>
+    </div>
+    
+    <div class="person">
+        <a target="__blank" href="https://www.linkedin.com/in/neha-manru-112635198"><img src="images/team/neha.webp" alt="NEHA MANRU"></a>
+        <a target="__blank"  href="https://www.linkedin.com/in/neha-manru-112635198">
+        <span class="name">NEHA MANRU</span>
+        <span class="posn">PUBLICITY HEAD</span></a>
+    </div>
+    
+    <div class="person">
+        <a target="__blank" href="https://www.linkedin.com/in/naman-sharma-9b87041b5"><img src="images/team/bunny.webp" alt="NAMAN SHARMA (BUNNY)"></a>
+        <a target="__blank"  href="https://www.linkedin.com/in/naman-sharma-9b87041b5">
+        <span class="name">NAMAN SHARMA (BUNNY)</span>
+        <span class="posn">SPONSORSHIP/LOGISTICS HEAD</span></a>
+    </div>
+    
+    <div class="person">
+        <a target="__blank" href="https://www.linkedin.com/in/rushyanth-narindi-965802180"><img src="images/team/Rushi.webp" alt="RUSHYANTH SWAMY N"></a>
+        <a target="__blank"  href="https://www.linkedin.com/in/rushyanth-narindi-965802180">
+        <span class="name">RUSHYANTH SWAMY N</span>
+        <span class="posn">ADVISORY GRAPHICS HEAD</span></a>
+    </div>
+    

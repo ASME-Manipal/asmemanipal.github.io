@@ -1,0 +1,315 @@
+
+/* Old Css */
+/* og */
+.members tr:nth-child(6) td:nth-child(2) {
+    opacity: 0;
+}
+
+.mytable tr:nth-child(6) td:nth-child(2) {
+    animation: fadeIn 0.5s forwards;
+    -webkit-animation: fadeIn 0.5s forwards;
+    -moz-animation: fadeIn 0.5s forwards;
+    -o-animation: fadeIn 0.5s forwards;
+    -ms-animation: fadeIn 0.5s forwards;
+    animation-delay: 0s;
+    /* opacity: 1; */
+}
+.members tr:nth-child(8) td:nth-child(2) {
+    opacity: 0;
+}
+
+.mytable tr:nth-child(8) td:nth-child(2) {
+    animation: fadeIn 0.5s forwards;
+    -webkit-animation: fadeIn 0.5s forwards;
+    -moz-animation: fadeIn 0.5s forwards;
+    -o-animation: fadeIn 0.5s forwards;
+    -ms-animation: fadeIn 0.5s forwards;
+    animation-delay: 0s;
+    /* opacity: 1; */
+}
+
+/*pawan*/
+
+.members tr:nth-child(2) td:nth-child(3) {
+    opacity: 0;
+}
+
+.mytable tr:nth-child(2) td:nth-child(3) {
+    animation: fadeIn 0.5s forwards;
+    -webkit-animation: fadeIn 0.5s forwards;
+    -moz-animation: fadeIn 0.5s forwards;
+    -o-animation: fadeIn 0.5s forwards;
+    -ms-animation: fadeIn 0.5s forwards;
+    animation-delay: 0ms;
+    /* opacity: 1; */
+}
+
+.members tr:nth-child(4) td:nth-child(3) {
+    opacity: 0;
+}
+
+.mytable tr:nth-child(4) td:nth-child(3) {
+    animation: fadeIn 0.5s forwards;
+    -webkit-animation: fadeIn 0.5s forwards;
+    -moz-animation: fadeIn 0.5s forwards;
+    -o-animation: fadeIn 0.5s forwards;
+    -ms-animation: fadeIn 0.5s forwards;
+    animation-delay: 0ms;
+    /* opacity: 1; */
+}
+
+/* shrutika */
+.members tr:nth-child(2) td:nth-child(2) {
+    opacity: 0;
+}
+
+.mytable tr:nth-child(2) td:nth-child(2) {
+    animation: fadeIn 0.5s forwards;
+    -webkit-animation: fadeIn 0.5s forwards;
+    -moz-animation: fadeIn 0.5s forwards;
+    -o-animation: fadeIn 0.5s forwards;
+    -ms-animation: fadeIn 0.5s forwards;
+    animation-delay: 63ms;
+    /* opacity: 1; */
+}
+.members tr:nth-child(4) td:nth-child(2) {
+    opacity: 0;
+}
+
+.mytable tr:nth-child(4) td:nth-child(2) {
+    animation: fadeIn 0.5s forwards;
+    -webkit-animation: fadeIn 0.5s forwards;
+    -moz-animation: fadeIn 0.5s forwards;
+    -o-animation: fadeIn 0.5s forwards;
+    -ms-animation: fadeIn 0.5s forwards;
+    animation-delay: 63ms;
+    /* opacity: 1; */
+}
+
+/*raghav*/
+
+.members tr:nth-child(6) td:nth-child(4) {
+    opacity: 0;
+}
+
+.mytable tr:nth-child(6) td:nth-child(4) {
+    animation: fadeIn 0.5s forwards;
+    -webkit-animation: fadeIn 0.5s forwards;
+    -moz-animation: fadeIn 0.5s forwards;
+    -o-animation: fadeIn 0.5s forwards;
+    -ms-animation: fadeIn 0.5s forwards;
+    animation-delay: 63ms;
+    /* opacity: 1; */
+}
+
+.members tr:nth-child(8) td:nth-child(4) {
+    opacity: 0;
+}
+
+.mytable tr:nth-child(8) td:nth-child(4) {
+    animation: fadeIn 0.5s forwards;
+    -webkit-animation: fadeIn 0.5s forwards;
+    -moz-animation: fadeIn 0.5s forwards;
+    -o-animation: fadeIn 0.5s forwards;
+    -ms-animation: fadeIn 0.5s forwards;
+    animation-delay: 63ms;
+    /* opacity: 1; */
+}
+/* neha */
+.members tr:nth-child(10) td:nth-child(1) {
+    opacity: 0;
+}
+
+.mytable tr:nth-child(10) td:nth-child(1) {
+    animation: fadeIn 0.5s forwards;
+    -webkit-animation: fadeIn 0.5s forwards;
+    -moz-animation: fadeIn 0.5s forwards;
+    -o-animation: fadeIn 0.5s forwards;
+    -ms-animation: fadeIn 0.5s forwards;
+    animation-delay: 126ms;
+    /* opacity: 1; */
+}
+.members tr:nth-child(12) td:nth-child(1) {
+    opacity: 0;
+}
+
+.mytable tr:nth-child(12) td:nth-child(1) {
+    animation: fadeIn 0.5s forwards;
+    -webkit-animation: fadeIn 0.5s forwards;
+    -moz-animation: fadeIn 0.5s forwards;
+    -o-animation: fadeIn 0.5s forwards;
+    -ms-animation: fadeIn 0.5s forwards;
+    animation-delay: 126ms;
+    /* opacity: 1; */
+}
+
+/*mohit*/
+
+.members tr:nth-child(6) td:nth-child(3) {
+    opacity: 0;
+}
+
+.mytable tr:nth-child(6) td:nth-child(3) {
+    animation: fadeIn 0.5s forwards;
+    -webkit-animation: fadeIn 0.5s forwards;
+    -moz-animation: fadeIn 0.5s forwards;
+    -o-animation: fadeIn 0.5s forwards;
+    -ms-animation: fadeIn 0.5s forwards;
+    animation-delay: 126ms;
+    /* opacity: 1; */
+}
+
+.members tr:nth-child(8) td:nth-child(3) {
+    opacity: 0;
+}
+
+.mytable tr:nth-child(8) td:nth-child(3) {
+    animation: fadeIn 0.5s forwards;
+    -webkit-animation: fadeIn 0.5s forwards;
+    -moz-animation: fadeIn 0.5s forwards;
+    -o-animation: fadeIn 0.5s forwards;
+    -ms-animation: fadeIn 0.5s forwards;
+    animation-delay: 126ms;
+    /* opacity: 1; */
+}
+/* ishrit */
+.members tr:nth-child(2) td:nth-child(1) {
+    opacity: 0;
+}
+
+.mytable tr:nth-child(2) td:nth-child(1) {
+    animation: fadeIn 0.5s forwards;
+    -webkit-animation: fadeIn 0.5s forwards;
+    -moz-animation: fadeIn 0.5s forwards;
+    -o-animation: fadeIn 0.5s forwards;
+    -ms-animation: fadeIn 0.5s forwards;
+    animation-delay: 189ms;
+    /* opacity: 1; */
+}
+.members tr:nth-child(4) td:nth-child(1) {
+    opacity: 0;
+}
+
+.mytable tr:nth-child(4) td:nth-child(1) {
+    animation: fadeIn 0.5s forwards;
+    -webkit-animation: fadeIn 0.5s forwards;
+    -moz-animation: fadeIn 0.5s forwards;
+    -o-animation: fadeIn 0.5s forwards;
+    -ms-animation: fadeIn 0.5s forwards;
+    animation-delay: 189ms;
+    /* opacity: 1; */
+}
+
+/*rushyanth*/
+
+.members tr:nth-child(10) td:nth-child(3) {
+    opacity: 0;
+}
+
+.mytable tr:nth-child(10) td:nth-child(3) {
+    animation: fadeIn 0.5s forwards;
+    -webkit-animation: fadeIn 0.5s forwards;
+    -moz-animation: fadeIn 0.5s forwards;
+    -o-animation: fadeIn 0.5s forwards;
+    -ms-animation: fadeIn 0.5s forwards;
+    animation-delay: 189ms;
+    /* opacity: 1; */
+}
+
+.members tr:nth-child(12) td:nth-child(3) {
+    opacity: 0;
+}
+
+.mytable tr:nth-child(12) td:nth-child(3) {
+    animation: fadeIn 0.5s forwards;
+    -webkit-animation: fadeIn 0.5s forwards;
+    -moz-animation: fadeIn 0.5s forwards;
+    -o-animation: fadeIn 0.5s forwards;
+    -ms-animation: fadeIn 0.5s forwards;
+    animation-delay: 189ms;
+    /* opacity: 1; */
+}
+/* amod */
+.members tr:nth-child(2) td:nth-child(4) {
+    opacity: 0;
+}
+
+.mytable tr:nth-child(2) td:nth-child(4) {
+    animation: fadeIn 0.5s forwards;
+    -webkit-animation: fadeIn 0.5s forwards;
+    -moz-animation: fadeIn 0.5s forwards;
+    -o-animation: fadeIn 0.5s forwards;
+    -ms-animation: fadeIn 0.5s forwards;
+    animation-delay: 252ms;
+    /* opacity: 1; */
+}
+.members tr:nth-child(4) td:nth-child(4) {
+    opacity: 0;
+}
+
+.mytable tr:nth-child(4) td:nth-child(4) {
+    animation: fadeIn 0.5s forwards;
+    -webkit-animation: fadeIn 0.5s forwards;
+    -moz-animation: fadeIn 0.5s forwards;
+    -o-animation: fadeIn 0.5s forwards;
+    -ms-animation: fadeIn 0.5s forwards;
+    animation-delay: 252ms;
+    /* opacity: 1; */
+}
+
+/*manish*/
+
+.members tr:nth-child(6) td:nth-child(1) {
+    opacity: 0;
+}
+
+.mytable tr:nth-child(6) td:nth-child(1) {
+    animation: fadeIn 0.5s forwards;
+    -webkit-animation: fadeIn 0.5s forwards;
+    -moz-animation: fadeIn 0.5s forwards;
+    -o-animation: fadeIn 0.5s forwards;
+    -ms-animation: fadeIn 0.5s forwards;
+    animation-delay: 252ms;
+    /* opacity: 1; */
+}
+
+.members tr:nth-child(8) td:nth-child(1) {
+    opacity: 0;
+}
+
+.mytable tr:nth-child(8) td:nth-child(1) {
+    animation: fadeIn 0.5s forwards;
+    -webkit-animation: fadeIn 0.5s forwards;
+    -moz-animation: fadeIn 0.5s forwards;
+    -o-animation: fadeIn 0.5s forwards;
+    -ms-animation: fadeIn 0.5s forwards;
+    animation-delay: 252ms;
+    /* opacity: 1; */
+}
+/* bunny */
+.members tr:nth-child(10) td:nth-child(2) {
+    opacity: 0;
+}
+
+.mytable tr:nth-child(10) td:nth-child(2) {
+    animation: fadeIn 0.5s forwards;
+    -webkit-animation: fadeIn 0.5s forwards;
+    -moz-animation: fadeIn 0.5s forwards;
+    -o-animation: fadeIn 0.5s forwards;
+    -ms-animation: fadeIn 0.5s forwards;
+    animation-delay: 315ms;
+    /* opacity: 1; */
+}
+.members tr:nth-child(12) td:nth-child(2) {
+    opacity: 0;
+}
+
+.mytable tr:nth-child(12) td:nth-child(2) {
+    animation: fadeIn 0.5s forwards;
+    -webkit-animation: fadeIn 0.5s forwards;
+    -moz-animation: fadeIn 0.5s forwards;
+    -o-animation: fadeIn 0.5s forwards;
+    -ms-animation: fadeIn 0.5s forwards;
+    animation-delay: 315ms;
+   /* opacity: 1; */
+}
