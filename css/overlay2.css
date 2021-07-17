@@ -1,6 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Vollkorn|Roboto);
 
-
 @keyframes gradients {
     0% {background-position: 0 0;}
     25% {background-position: 50% 0;}
@@ -15,12 +14,6 @@
     right: 1%;
     bottom: 2%;
     font-family: Raleway !important;
-    /* width: max-content !important; */
-    /* display: block !important; */
-    /* line-height: 0.9em !important; */
-    /* display: inline-block !important; */
-    /* color: white !important; */
-    /* font-size: 1rem !important; */
   }
 
   .o-credits a{
@@ -68,8 +61,6 @@
 .overlay {
   position: fixed;
   overflow: hidden !important;
-
-
   top: 0;
   left: 0;
   width: 100%;
@@ -80,16 +71,7 @@
   z-index: 50;
   color: #FFF;
 }
-/* .overlay:before {
-  content: '';
-  background: #FF5252;
-  left: -55%;
-  top: 0;
-  width: 50%;
-  height: 100%;
-  position: absolute;
-  transition: left 0.35s ease;
-} */
+
 .overlay:after {
   content: '';
   background-image: linear-gradient(to right, #399cc5 0%,
@@ -162,10 +144,6 @@ body.overlay.open{
   top: 50%;
   width: 100%;
   transform: translateY(-50%);
-  /* font-size: 50px;
-  font-family: 'Vollkorn', serif;
-  font-weight: 400;
-  text-align: center; */
   z-index: 100;
 }
 
@@ -173,23 +151,15 @@ body.overlay.open{
     position: relative;
 }
 
-.overlay .top-right-content{
-    /* position: absolute; */
-    /* margin-bottom: 0; */
-}
 .overlay .top-right ul {
     display: table;
     font-family: 'articulat';
-    /* margin-right: -4% !important; */
-    /* margin-bottom: 0px !important; */
     height: auto;
     font-size: 55px;
     font-weight: 400;
     text-align: right;
     letter-spacing: 5px;
     transition: 0.3s;
-    /* display: inline-block;
-    vertical-align: bottom; */
     position: absolute;
     bottom: 0;
     right: 0;
@@ -198,18 +168,14 @@ body.overlay.open{
     padding-bottom: 0;
 }
 
-
-
 .overlay .top-right ul li {
     display: table-cell;
-    /* padding-top: auto; */
-    /* padding-bottom: auto; */
     padding-right: 15%;
     display: block;
     position: relative;
     opacity: 0;
-    /* margin-bottom: 10px; */
   }
+
 .overlay .top-right ul li a {
   display: block;
   position: relative;
@@ -234,48 +200,6 @@ body.overlay.open{
 .top-left img{
   height: 5rem;
 }
-
-  /* .overlay .top-right li a:after {
-    content: '';
-    position: absolute;
-    /* top: 50%; */
-    /* left: 43.5%;
-    width: 0%;
-    transform: translateX(-50%);
-    height: 3px;
-    background: #FFF;
-    transition: .35s;
-  } */
-
-/* .overlay ul li {
-  display: block;
-  height: 25%;
-  height: calc(100% / 4);
-  min-height: 50px;
-  position: relative;
-  opacity: 0;
-}
-.overlay ul li a {
-  display: block;
-  position: relative;
-  color: #FFF;
-  text-decoration: none;
-  overflow: hidden;
-}
-.overlay ul li a:hover:after, .overlay ul li a:focus:after, .overlay ul li a:active:after {
-  width: 100%;
-}
-.overlay ul li a:after {
-  content: '';
-  position: absolute;
-  bottom: 0;
-  /* left: 40%;
-  width: 0%;
-  transform: translateX(-50%);
-  height: 3px;
-  background: #FFF;
-  transition: 0.35s;
-} */
 
 @-webkit-keyframes fadeInRight {
   0% {

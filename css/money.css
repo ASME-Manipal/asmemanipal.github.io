@@ -1,18 +1,14 @@
 .snowContainer{
     opacity: 1;
     z-index: 0;
-    /* width: 100wh; */
-    /* top: 0; */
-    /* height: max-content; */
     height: 47vh !important;
     width: 90%;
     margin-left: auto;
     margin-right: auto;
-     background-color: #1c1b1b;
-      overflow: hidden;
-       position: relative;
-       /* top: 0; */
-    }
+    background-color: #1c1b1b;
+    overflow: hidden;
+    position: relative;
+  }
 
 .snowExample{
     z-index: 0;

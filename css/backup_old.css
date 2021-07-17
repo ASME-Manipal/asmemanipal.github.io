@@ -1,0 +1,396 @@
+.t-title {
+    font-family: Raleway;
+    background: linear-gradient(to right, #399cc5 0%,
+        #40a0bf 12.5%,
+        #46a3b8 25%,
+        #4aa5b5 37.5%,
+        #5bada4 50%,
+        #66b298 62.5%,
+        #6eb790 75%,
+        #81c07d 87.5%,
+        #92c96c 100%) !important;
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+    font-size: 5rem;
+  
+  }
+  .swiper-container {
+    color: white;
+    font-family: Raleway;
+    position: relative;
+    width: 90vw;
+    height: 410px;
+  }
+  
+  .swiper-container > .swiper-slide__content {
+    /* position: absolute;
+    top: 0; */
+  }
+  
+  .swiper-container .swiper-slide {
+    padding-top: 100px !important;
+    height: 410px !important;
+    display: flex;
+    flex-direction: column;
+    background: yellow;
+    align-items: center;
+    justify-content: top;
+    transition: all 200ms linear;
+    /* transform: scale(1.1); */
+  }
+  .swiper-container .swiper-slide.swiper-slide-active {
+    overflow: visible;
+    z-index: 2;
+    transform: scale(1.5);
+    background: #fc0;
+  }
+  
+  .swiper-container .swiper-slide__content {
+    height: 300px;
+  }
+  
+  
+  .swiper-container .swiper-slide.swiper-slide .t-img {
+      /* top: -30%; */
+      
+      width: 60px;
+      height: 60px;
+      position: relative;
+      overflow: hidden;
+      border-radius: 35px;
+    }
+    
+    .swiper-container .swiper-slide.swiper-slide .t-img img {
+      display: inline;
+      margin: 0 auto;
+      height: auto;
+      width: 100%;
+      filter: grayscale(1);
+    }
+    
+  
+    .swiper-container .swiper-slide.swiper-slide-active .t-grad{
+  background: linear-gradient(to top right, #399cc5 0%,
+  #40a0bf 12.5%,
+  #46a3b8 25%,
+  #4aa5b5 37.5%,
+  #5bada4 50%,
+  #66b298 62.5%,
+  #6eb790 75%,
+  #81c07d 87.5%,
+  #92c96c 100%) !important;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    padding: 5px;
+    /* position: relative; */
+    /* overflow: hidden; */
+  }
+  .swiper-container .swiper-slide.swiper-slide-active .t-img {
+    top: 0 !important;
+    width: 110px;
+    height: 110px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 55px;
+  }
+  
+  .swiper-container .swiper-slide.swiper-slide-active .t-img img {
+    display: inline;
+    margin: 0 auto;
+    height: auto;
+    width: 100%;
+    filter: none !important;
+  }
+  
+  .swiper-container .swiper-slide.swiper-slide-active .t-name
+  {
+    font-size: 0.7rem;
+    margin-top: 5px;
+    /* padding: 0 !important; */
+    line-height: 1rem;
+    opacity: 1 !important;
+    font-weight: 700;
+  }
+  
+  .swiper-container .swiper-slide.swiper-slide-active .t-pos{
+    opacity: 1 !important;
+    font-size: 0.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .swiper-container .swiper-slide.swiper-slide-active .t-desc{
+    opacity: 1 !important;
+    font-family: 'neue';
+    /* font-weight: 300; */
+    text-align: center;
+    font-size: 0.8rem;
+  }
+  
+  /* 
+  .swiper-container .swiper-slide.swiper-slide .t-name{
+    opacity: 0;
+  }
+  
+  .swiper-container .swiper-slide.swiper-slide .t-pos{
+    opacity: 0;
+  }
+  
+  .swiper-container .swiper-slide.swiper-slide .t-desc{
+    opacity: 0;
+  } */
+  
+  .swiper-button-prev{
+      background-image: url(../images/left.jpg);
+      background-repeat: no-repeat;
+      background-size: 100% auto;
+      background-position: center;
+    }
+  
+    .swiper-button-prev::after {
+      display: none;
+    }
+  
+    
+  .swiper-button-next{
+    background-image: url(../images/right.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: center;
+  }
+  
+  .swiper-button-next::after {
+    display: none;
+  }
+  /* .swiper-button-next{
+    background-image: url('../images/right.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: center;
+  }
+  
+  .swiper-button-prev{
+    background-image: url('../images/left.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: center;
+  } */
+  /*end*/
+  
+  /*second swiper */
+  
+  .swiper-container2 {
+    color: white;
+    font-family: Raleway;
+    position: relative;
+    width: 90vw;
+    height: 410px;
+  }
+  
+  .swiper-container2 > .swiper-slide__content {
+    position: absolute;
+    top: 0;
+  }
+  
+  .swiper-container2 .swiper-slide {
+    height: 410px;
+    display: flex;
+    flex-direction: column;
+    background: #1c1b1b;
+    align-items: center;
+    justify-content: center;
+    transition: all 200ms linear;
+    transform: scale(1.3);
+  }
+  .swiper-container2 .swiper-slide.swiper-slide-active {
+    overflow: visible;
+    z-index: 2;
+    transform: scale(1.5);
+    /* background: #fc0; */
+  }
+  
+  .swiper-container2 .swiper-slide__content {
+    height: 300px;
+  }
+  
+  
+  .swiper-container2 .swiper-slide.swiper-slide .t-img {
+      /* top: -30%; */
+      
+      width: 80px;
+      height: 80px;
+      position: relative;
+      overflow: hidden;
+      border-radius: 40px;
+    }
+    
+    .swiper-container2 .swiper-slide.swiper-slide .t-img img {
+      display: inline;
+      margin: 0 auto;
+      height: auto;
+      width: 100%;
+      filter: grayscale(1);
+    }
+    
+  
+    .swiper-container2 .swiper-slide.swiper-slide-active .t-grad{
+  background: linear-gradient(to right, #399cc5 0%,
+  #40a0bf 12.5%,
+  #46a3b8 25%,
+  #4aa5b5 37.5%,
+  #5bada4 50%,
+  #66b298 62.5%,
+  #6eb790 75%,
+  #81c07d 87.5%,
+  #92c96c 100%) !important;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    padding: 5px;
+    /* position: relative; */
+    /* overflow: hidden; */
+  }
+  .swiper-container2 .swiper-slide.swiper-slide-active .t-img {
+    top: 0 !important;
+    width: 90px;
+    height: 90px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 45px;
+  }
+  
+  .swiper-container2 .swiper-slide.swiper-slide-active .t-img img {
+    display: inline;
+    margin: 0 auto;
+    height: auto;
+    width: 100%;
+    filter: none !important;
+  }
+  
+  .swiper-container2 .swiper-slide.swiper-slide-active .t-name
+  {
+    font-size: 0.7rem;
+    margin-top: 5px;
+    /* padding: 0 !important; */
+    line-height: 1rem;
+    opacity: 1 !important;
+    font-weight: 700;
+  }
+  
+  .swiper-container2 .swiper-slide.swiper-slide-active .t-pos{
+    opacity: 1 !important;
+    font-size: 0.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .swiper-container2 .swiper-slide.swiper-slide-active .t-desc{
+    opacity: 1 !important;
+    font-family: 'neue';
+    /* font-weight: 300; */
+    text-align: center;
+    font-size: 0.8rem;
+  }
+  
+  
+  .swiper-container2 .swiper-slide.swiper-slide .t-name{
+    opacity: 0;
+  }
+  
+  .swiper-container2 .swiper-slide.swiper-slide .t-pos{
+    opacity: 0;
+  }
+  
+  .swiper-container2 .swiper-slide.swiper-slide .t-desc{
+    opacity: 0;
+  }
+
+
+
+
+
+
+
+
+
+
+  <div class="swiper-container">
+  <!-- Additional required wrapper -->
+  <div class="swiper-wrapper">
+      <!-- Slides -->
+      <div class="swiper-slide">
+        <div class="t-grad">
+        <div class="t-img">
+          <img src="images/blog7.jpg">
+        </div>
+        </div>
+        <!-- <div class="t-name">Shijo Mon Yesudhas</div> -->
+        <!-- <div class="t-pos">Senior Head of Development, IDP India</div> -->
+        <!-- <p class="t-desc">"Which features friendly tips and fresh advice from our monthly newsletter. Kaafi recommend!"</p> -->
+      </div>
+
+      <div class="swiper-slide swiper-slide-active">
+        <div class="t-grad">
+        <div class="t-img">
+          <img src="images/blog7.jpg">
+        </div>
+        </div>
+        <br>
+        <div class="t-name">Shijo Mon Yesudhas</div>
+        <div class="t-pos">Senior Head of Development, IDP India</div>
+        <p class="t-desc">"Which features friendly tips and fresh advice from our monthly newsletter. Kaafi recommend!"</p>
+      </div>
+
+      
+
+      <div class="swiper-slide">
+        <div class="t-grad">
+        <div class="t-img">
+          <img src="images/blog7.jpg">
+        </div>
+        </div>
+        <br>
+        <div class="t-name">Shijo Mon Yesudhas</div>
+        <div class="t-pos">Senior Head of Development, IDP India</div>
+        <p class="t-desc">"Which features friendly tips and fresh advice from our monthly newsletter. Kaafi recommend!"</p>
+      </div>
+      <div class="swiper-slide">
+        <div class="t-grad">
+        <div class="t-img">
+          <img src="images/blog7.jpg">
+        </div>
+        </div>
+        <br>
+        <div class="t-name">Shijo Mon Yesudhas</div>
+        <div class="t-pos">Senior Head of Development, IDP India</div>
+        <p class="t-desc">"Which features friendly tips and fresh advice from our monthly newsletter. Kaafi recommend!"</p>
+      </div>
+      <div class="swiper-slide">
+        <div class="t-grad">
+        <div class="t-img">
+          <img src="images/blog7.jpg">
+        </div>
+        </div>
+        <br>
+        <div class="t-name">Shijo Mon Yesudhas</div>
+        <div class="t-pos">Senior Head of Development, IDP India</div>
+        <p class="t-desc">"Which features friendly tips and fresh advice from our monthly newsletter. Kaafi recommend!"</p>
+      </div>
+      <div class="swiper-slide">
+        <div class="t-grad">
+        <div class="t-img">
+          <img src="images/blog7.jpg">
+        </div>
+        </div>
+        <br>
+        <div class="t-name">Shijo Mon Yesudhas</div>
+        <div class="t-pos">Senior Head of Development, IDP India</div>
+        <p class="t-desc">"Which features friendly tips and fresh advice from our monthly newsletter. Kaafi recommend!"</p>
+      </div>
+  </div>
+  <div class="swiper-button-prev"></div>
+<div class="swiper-button-next"></div>
+    <!-- If we need navigation buttons -->
+<!-- <div class="swiper-button-prev"></div>
+  <div class="swiper-button-next"></div> -->
+
+</div>

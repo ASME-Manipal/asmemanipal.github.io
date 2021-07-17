@@ -11,18 +11,13 @@
     top: 0;
     right: 0;
     bottom: 0;
-    /* width: 100%; */
     width: 100%;
-    /* height: 100% !important; */
     height: 100vh;
     opacity: 1;
-    /* transition: opacity .35s, visibility .35s, height .35s;
-    overflow: hidden; */
     transition: 0.5s;
     z-index: 70000;
     margin-bottom: 0px !important;
     animation: 500ms slideup 1s forwards;
-    /* animation-delay: 17.5s; */
     animation-delay: 11.5s;
 }
 
@@ -44,20 +39,13 @@
   left: 22%;
   display: flex;
   width: 20%;
-  /* width: 50%; */
-  /* margin-top: -5%;
-  margin-left: 40.8%; */
-  /* width: 200px */
 }
 
 .slide-left img {
-
-    /* display: flex; */
     align-items: center;
     justify-content: center;
   animation: 500ms slide-left 2s forwards;
     transform:translateX(200%);
-    /* animation-delay: 9.5s; */
     animation-delay: 2.5s;
 }
 
@@ -76,17 +64,11 @@
     background: white;
     background-color: white;
     color: white;
-    /* border-left:solid white;
-    margin-left: 40.7% !important;
-    margin-top: 10%; */
     width: 2px;
-       height: 20%;
-    /* width: 5%; */
+    height: 20%;
     -webkit-animation-name: hr-line;
     -moz-animation-name: hr-line;
     animation: hr-line 2s forwards;
-    /* opacity: 1; */
-    /* animation-delay: 7.5s; */
     animation-delay: 0.5s;
 }
 
@@ -111,38 +93,24 @@
     overflow: hidden;
     top: 41.7%;
     left: 43%;
-    /* width: 50%; */
-    /* margin-top: -5%;
-    margin-left: 40.8%; */
     width: 250px;
   }
 
   .slide-right .right-inner {
     font-size: 35px;
     font-family: Raleway;
-      color: #ffffff;
-      /* font-weight: bold; */
-      display: flex;
-      align-items: center;
-      /* justify-content: center; */
+    color: #ffffff;
+    display: flex;
+    align-items: center;
     animation: slide-rightt 1s forwards;
-      transform:translateX(-350px);
-      /* animation-delay: 9.5s; */
-      animation-delay: 2.5s;
+    transform:translateX(-350px);
+    animation-delay: 2.5s;
   }
 
   @keyframes slide-rightt {
-
-    40% {
-      transform:translateX(0px);
-    }
-    90% {
-      transform:translateX(0px);
-
-    }
-    100%{
-      transform: translateY(100px);
-    }
+    40% {transform:translateX(0px);}
+    90% {transform:translateX(0px);}
+    100%{transform: translateY(100px);}
   }
 
   .slide-hide{
@@ -155,21 +123,16 @@
     top: 42%;
     left: 43%;
     animation:  push-up2 1s forwards;
-    /* animation-delay: 15s; */
     animation-delay: 9s;
-
-
   }
 
   .wa-push .wa-inner {
-      /* font-weight: bold; */
       align-items: center;
       justify-content: center;
       margin-left: auto;
       margin-right: auto;
-    animation:  push-up 0.5s forwards;
+      animation:  push-up 0.5s forwards;
       transform:translateY(-100px);
-      /* animation-delay: 14.1s; */
       animation-delay: 8.1s;
   }
 
@@ -184,8 +147,6 @@
 
 
   .content {
-    /* margin-left: 1%;
-      margin-top: -16.5%; */
     position: absolute;
     top: 19.7%;
     left: 40.5%;
@@ -193,27 +154,22 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    /* opacity: 0; */
     animation: content-show 0s;
-    /* animation-delay: 3s; */
   }
 
  .content .slider-wrapper {
     font-size: 35px;
     font-family: Raleway;
     color: #aaa;
-    /* font-weight: bold; */
     display: flex;
     align-items: center;
     justify-content: center;
-    /* opacity: 1; */
   }
 
 .content  .slider {
     height: 50px;
     padding-left: 15px;
     overflow: hidden;
-    /* opacity: 1; */
   }
 
 .content  .slider div {
@@ -227,10 +183,7 @@
 
   .slider-text1 {
     opacity: 0;
-
-    /* animation: slide 4s linear; */
     animation: slide 5s linear;
-    /* animation-delay: 10.8s; */
     animation-delay: 3.8s;
   }
 
@@ -298,9 +251,7 @@ element {--vh: 3.5px;}
 
 .wavy {
   position: relative;
-  /* -webkit-box-reflect: below -12px linear-gradient(transparent, rgba(0, 0, 0, 0.2)); */
   animation: animate 1s ease-in-out 0s forwards ;
-  /* animation-delay: 6.5s; */
   letter-spacing: .1rem;
 }
 
@@ -314,11 +265,8 @@ element {--vh: 3.5px;}
   display: inline-block;
   color: #fff;
   font-size: 2em;
-  /* text-transform: uppercase; */
   animation: animate 1s ease-in-out 0s forwards ;
-  /* animation-delay: calc(0.05s * var(--i) + 15s); */
   animation-delay: calc(0.05s * var(--i) + 9s);
-
 }
 
 @keyframes text-visible{
@@ -337,13 +285,9 @@ element {--vh: 3.5px;}
 }
 
 .wavy-heading {
-
-  /* opacity: 0; */
   position: absolute;
   top: 45.5%;
   left: 43%;
-  /* animation: wavy-visible ease-in-out forwards ;
-  animation-delay: 5s; */
 }
 
 @keyframes wavy-visible{
@@ -369,64 +313,51 @@ element {--vh: 3.5px;}
   background-image: linear-gradient(to right, #63a7f6 0%, #87d3ff 50%, #72e6df 100%) !important;
   background-clip: text !important;
   background-size: 100%;
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    -moz-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
 }
 
 .t21{
   color:  #399cc5 !important;
   background-color: #399cc5;
-  background: linear-gradient(to right,
-
-  #399cc5 100%
-      ) !important;
+  background: linear-gradient(to right, #399cc5 100%) !important;
   -webkit-background-clip: text !important;
   -webkit-text-fill-color: transparent !important;
 }
 .t22{
   background: linear-gradient(to right,
     #399cc5 22%,
-      #40a0bf 100%
-      ) !important;
+    #40a0bf 100%) !important;
   -webkit-background-clip: text !important;
   -webkit-text-fill-color: transparent !important;
 }
 .t23{
   background: linear-gradient(to right,
   #40a0bf 44%,
-
-      #46a3b8 100%
-    ) !important;
+  #46a3b8 100%) !important;
   -webkit-background-clip: text !important;
   -webkit-text-fill-color: transparent !important;
 }
 .t24{
   background: linear-gradient(to right,
   #46a3b8 66%,
-
-      #4aa5b5 100%
-      ) !important;
+  #4aa5b5 100%) !important;
   -webkit-background-clip: text !important;
   -webkit-text-fill-color: transparent !important;
 }
 .t26{
   background: linear-gradient(to right,
   #4aa5b5 88%,
-
-      #5bada4 100%
-
-      ) !important;
+  #5bada4 100%) !important;
   -webkit-background-clip: text !important;
   -webkit-text-fill-color: transparent !important;
 }
 .t27{
   background-color: #5bada4;
   background: linear-gradient(to right,
-  #5bada4 100%
-
-     ) !important;
+  #5bada4 100%) !important;
   -webkit-background-clip: text !important;
   -webkit-text-fill-color: transparent !important;
 }
@@ -434,84 +365,61 @@ element {--vh: 3.5px;}
 .t28{
   background-color: #66b298;
   background: linear-gradient(to right,
-  #66b298 100%
-      ) !important;
+  #66b298 100%) !important;
   -webkit-background-clip: text !important;
   -webkit-text-fill-color: transparent !important;
 }
 .t29{
   background: linear-gradient(to right,
   #66b298 22%,
-  #6eb790 100%
-  ) !important;
+  #6eb790 100%) !important;
   -webkit-background-clip: text !important;
   -webkit-text-fill-color: transparent !important;
 }
 .t30{
   background: linear-gradient(to right, #6eb790 44%,
-  #81c07d 100%
-  ) !important;
+  #81c07d 100%) !important;
   -webkit-background-clip: text !important;
   -webkit-text-fill-color: transparent !important;
 }
 .t31{
   background: linear-gradient(to right, #81c07d 66%,
-  #92c96c 100%
-      ) !important;
+  #92c96c 100%) !important;
   -webkit-background-clip: text !important;
   -webkit-text-fill-color: transparent !important;
 }
 .t32{
   background-color: #92c96c;
   background: linear-gradient(to right,
-  #92c96c 100%
-      ) !important;
+  #92c96c 100%) !important;
   -webkit-background-clip: text !important;
   -webkit-text-fill-color: transparent !important;
 }
 
-
-
-
-/* progress bar */
-
-
 .counter-overlay{
-  position: fixed;
-  overflow: hidden !important;
+    position: fixed;
+    overflow: hidden !important;
     top: 0;
     right: 0;
     bottom: 0;
-    /* width: 100%; */
     width: 100%;
-    /* height: 100% !important; */
     height: 100vh;
     opacity: 1;
-    /* transition: opacity .35s, visibility .35s, height .35s;
-    overflow: hidden; */
     transition: 0.5s;
     z-index: 800000;
     margin-bottom: 0px !important;
     animation: 100ms c-fadeout forwards;
     animation-delay: 7s;
-
 }
 
-@keyframes c-fadeout{
+@keyframes c-fadeout{100%{opacity: 0;}}
 
-  100%{
-    opacity: 0;
-
-  }
-}
 .counter{
-
   height: 100vh;
   width: 100%;
   background-color: #1c1b1b;
   position: absolute;
   overflow: hidden !important;
-
 }
 
 .counter-hide{
@@ -526,88 +434,6 @@ element {--vh: 3.5px;}
   position: absolute;
 }
 
-
-/* .circular{
-  top: 50%;
-  left: 50%;
-  transform: translateY(-50%);
-  transform: translateX(-50%);
-
-  height:100px;
-  width: 100px;
-  position: relative;
-  transform:scale(2);
-}
-.circular .inner{
-  position: absolute;
-  z-index: 6;
-  top: 50%;
-  left: 50%;
-  height: 80px;
-  width: 80px;
-  margin: -40px 0 0 -40px;
-  background: #1c1b1b;
-  border-radius: 100%;
-
-}
-.circular .number{
-  position: absolute;
-  top:50%;
-  left:50%;
-  transform: translate(-50%, -50%);
-  z-index:10;
-  font-size:18px;
-  font-weight:500;
-  color:white;
-}
-.circular .bar{
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  background: #1c1b1b;
-  -webkit-border-radius: 100%;
-  clip: rect(0px, 100px, 100px, 50px);
-}
-.circle .bar .progress{
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  -webkit-border-radius: 100%;
-  clip: rect(0px, 50px, 100px, 0px);
-  /* background: linear-gradient(to right, #399cc5 0%,
-  #40a0bf 12.5%,
-  #46a3b8 25%,
-  #4aa5b5 37.5%,
-  #5bada4 50%,
-  #66b298 62.5%,
-  #6eb790 75%,
-  #81c07d 87.5%,
-  #92c96c 100%) !important;
-  background: pink;
-}
-.circle .left .progress{
-  z-index:1;
-  animation: left 4s linear both;
-}
-@keyframes left{
-  100%{
-    transform: rotate(180deg);
-  }
-}
-.circle .right {
-  transform: rotate(180deg);
-  z-index:3;
-
-}
-.circle .right .progress{
-  animation: right 4s linear both;
-  animation-delay:4s;
-}
-@keyframes right{
-  100%{
-    transform: rotate(180deg);
-  }
-} */
 
 .circular{
   height:100px;
