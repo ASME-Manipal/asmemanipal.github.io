@@ -3,7 +3,6 @@
   function getFormData(form) {
     var elements = form.elements;
     var honeypot;
-
     var fields = Object.keys(elements).filter(function(k) {
       if (elements[k].name === "honeypot") {
         honeypot = elements[k].value;
@@ -24,10 +23,8 @@
     var formData = {};
     fields.forEach(function(name){
       var element = elements[name];
-      
       // singular form elements just have one value
       formData[name] = element.value;
-
       // when our element has multiple items, get their values
       if (element.length) {
         var data = [];
@@ -86,7 +83,7 @@
     }).join('&');
     xhr.send(encoded);
   }
-  
+
   function loaded() {
     // bind to the submit event of our form
     var forms = document.querySelectorAll("form.gform");

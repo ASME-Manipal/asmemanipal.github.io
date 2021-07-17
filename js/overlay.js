@@ -19,22 +19,15 @@
       document.getElementById("mySidenav").style.width = "0";
       //document.getElementsByClassName("overlay open").style.overflow = "scroll";
       document.body.scroll = "yes";
-
     }
 
     $("#right a").on("click", function() {
       $('.overlay').removeClass('open');
           $menu.attr('aria-hidden', 'true');
           $toggle.attr('aria-expanded', 'faremove');
-  
           document.getElementById("mySidenav").style.width = "0".slow();
           document.body.style.overflow = 'scroll';
           document.body.scroll = "yes";
     });
   });
-
- 
-
-
 });
-
