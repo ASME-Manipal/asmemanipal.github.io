@@ -1903,17 +1903,17 @@ object-fit: cover;
 }
 
 .blog-head{
-  background: var(--grad_right) !important;
--webkit-background-clip: text !important;
--webkit-text-fill-color: transparent !important;
-font-size: 7em !important;
 padding-top: 0;
 padding-bottom: 0;
 margin-bottom: 0;
+margin-right: 0.09em;
 height: .75em;
 line-height: 1em;
+font-size: 7em !important;
 /* opacity: 0; */
-margin-right: 0.09em;
+background: var(--grad_right) !important;
+-webkit-background-clip: text !important;
+-webkit-text-fill-color: transparent !important;
 }
 
 .blog-head-ani{
