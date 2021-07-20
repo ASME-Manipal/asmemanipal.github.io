@@ -54,7 +54,7 @@ html{
 
 html,
 body {
-  overflow: hidden;
+  /* overflow: hidden; */
   height: 100%;
   width: 100%;
   margin: 0 !important;
@@ -75,9 +75,9 @@ body::-webkit-scrollbar {
 body::-webkit-scrollbar-thumb {
   background: var(--grad_135) !important;
 
-  /* background-image: linear-gradient(to right, #ee7752, #e73c7e, #23a6d5, #23d5ab); */
+  /*background-image: linear-gradient(to right, #ee7752, #e73c7e, #23a6d5, #23d5ab); */
   /* animation: scroll-gradient 5s ease infinite; */
-  /* background-size: 200% 200%; */
+  /* background-size: 200% 200%;
 }
 .scroller {
    /* var(--grad_135) !important; */
@@ -158,7 +158,7 @@ header {
   background: rgba(28, 27, 27) !important;
   transition: 0.5s;
   /* padding-top: 0em; */
-  height: 4.75em;
+  height: 4.5em;
 }
 
 .scrollUp{
@@ -175,7 +175,7 @@ header {
  .shrink .button_container{
     position: absolute;
     transform: scale(0.8);
-    top: -30% !important;
+    top: -25% !important;
 
   }
 
