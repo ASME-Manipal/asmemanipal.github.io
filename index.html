@@ -163,9 +163,9 @@
       var b = navbar.height();
       currentScrollTop = a;
       if (c < currentScrollTop && a > b + b) {
-        setTimeout(function(){
+        // setTimeout(function(){
           $(".shrink").addClass("scrollUp");
-        },1000);
+        // },1000);
       } else if (c > currentScrollTop && !(a <= b)) {
         $(".shrink").removeClass("scrollUp");
       }
@@ -210,7 +210,7 @@ if ($(this).is(":in-viewport")) {
 
  -->
 
- <section class="loading load-overlay">
+ <!-- <section class="loading load-overlay">
     <div class="verticalLine"></div>
     <div class="slide-right">
         <span class="right-inner"> Competition </span>
@@ -251,7 +251,7 @@ if ($(this).is(":in-viewport")) {
             style="--i:13;">.</span></span>
       </div>
     </div>
-  </section>
+  </section> -->
 
   <header>
 
@@ -260,7 +260,6 @@ if ($(this).is(":in-viewport")) {
         <source src="videos/landing.webm" type="video/webm">
       </video>
     </div>
-
     <nav class="navbar navbar-expand-lg navbar-trans navbar-custom navbar-fixed-top">
       <a class="navbar-brand" href="#header"><img src="logo.png" class="n-brand" alt="logo"></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
@@ -696,8 +695,7 @@ if ($(this).is(":in-viewport")) {
               to non-technical ones like
               <span class="heading"><span class="appear">Graphic Design</span></span>
               and
-              <span class="heading"><span class="appear">Video</span></span><span class="heading"><span class="appear">
-                  Editing,</span></span> we provide opportunities to learn
+              <span class="heading"><span class="appear">Video Editing,</span></span> we provide opportunities to learn
               various software like
               <span class="heading"><span class="appear">Fusion 360, </span></span>
               <span class="heading"><span class="appear">AutoCAD, </span></span>
@@ -1277,10 +1275,33 @@ if ($(this).is(":in-viewport")) {
       if (window.CP.shouldStopExecution(0)) break;
       $(reverseItems[i]).appendTo($('.slider', $sliderRight));
     } window.CP.exitedLoop(0);
+    $(window).on("load", function () {
+
+$(window).scroll(function () {
+
+
+
+    var windowBottom = $(this).scrollTop() + $(this).innerHeight();
+    $(".projects").each(function () {
+
+
+        /* Check the location of each desired element */
+        var objectBottom = $(this).offset().top + $(this).outerHeight();
+
+        /* If the element is completely within bounds of the window, fade it in */
+        if ($(this).offset().top < windowBottom) { //object comes into view (scrolling down)
+            $(".slideshow-left").slick('slickPlay');
+
+
+                $flagg = 1;
+        }
+    });
+}).scroll(); //invoke scroll-handler on page-load
+});
 
     $slider.addClass('slideshow-left');
     $('.slideshow-left').slick({
-      autoplay: true,
+      // autoplay: true,
       autoplaySpeed: 15000,
       vertical: true,
       verticalSwiping: true,
@@ -1338,6 +1359,8 @@ if ($(this).is(":in-viewport")) {
       });
 
     $('.slideshow-right .slider').slick({
+            // verticalSwiping: true,
+
       swipe: false,
       vertical: true,
       arrows: true,
@@ -1349,6 +1372,8 @@ if ($(this).is(":in-viewport")) {
     });
 
     $('.slideshow-text').slick({
+      // verticalSwiping: true,
+
       swipe: false,
       vertical: true,
       arrows: true,

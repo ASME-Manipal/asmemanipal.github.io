@@ -13,9 +13,33 @@ for (i = 0; i < maxItems; i++) {
   $(reverseItems[i]).appendTo($('.slider', $sliderRight));
 } window.CP.exitedLoop(0);
 
+$(window).on("load", function () {
+
+  $(window).scroll(function () {
+
+
+
+      var windowBottom = $(this).scrollTop() + $(this).innerHeight();
+      $(".projects").each(function () {
+
+
+          /* Check the location of each desired element */
+          var objectBottom = $(this).offset().top + $(this).outerHeight();
+
+          /* If the element is completely within bounds of the window, fade it in */
+          if ($(this).offset().top < windowBottom) { //object comes into view (scrolling down)
+              $(".slideshow-left").slick('slickPlay');
+
+
+                  $flagg = 1;
+          }
+      });
+  }).scroll(); //invoke scroll-handler on page-load
+});
+
 $slider.addClass('slideshow-left');
 $('.slideshow-left').slick({
-  autoplay: true,
+  // autoplay: true,
   autoplaySpeed: 15000,
   vertical: true,
   verticalSwiping: true,

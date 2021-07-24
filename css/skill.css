@@ -1,15 +1,16 @@
 @-webkit-keyframes scroll {
   0% {
-    transform: translateY(0);
+    transform: translateY(calc(0));
   }
   100% {
     transform: translateY(calc(-50vh * 3));
+
   }
 }
 
 @keyframes scroll {
   0% {
-    transform: translateY(0);
+    transform: translateY(calc(0));
   }
   100% {
     transform: translateY(calc(-50vh * 3));
@@ -21,7 +22,7 @@
     transform: translateY(calc(-50vh * 3));
   }
   100% {
-    transform: translateY(calc(50vh * 3));
+    transform: translateY(calc(0));
   }
 }
 
