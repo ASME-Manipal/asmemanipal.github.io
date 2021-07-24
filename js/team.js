@@ -51,10 +51,10 @@ $(document).on("scroll", function () {
 $(document).on("scroll", function () {
   const topOffset = $(".wrap").offset().top;
   const scrollTop = window.scrollY;
-  console.log("value ", topOffset - scrollTop);
+  // console.log("value ", topOffset - scrollTop);
   const rightValue = Math.max(64 - 0.15 * (topOffset - scrollTop), 0);
-  console.log("height ",rightValue);
-      $(".team-c").css("height", Math.min(rightValue, 50) + "vh");
+  // console.log("height ",rightValue);
+      $(".team-c").css("height", Math.min(rightValue, 28.125) + "vw");
 });
 
 $(document).on("scroll", function () {

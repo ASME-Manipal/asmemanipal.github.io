@@ -1039,7 +1039,7 @@ span {
 }
 
 .members img {
-  height: 9.5em !important;
+  height: 13vh !important;
   margin-bottom: 10px;
 }
 
@@ -1444,19 +1444,19 @@ span {
   object-fit: cover;
   background: url("team.jpeg");
   width:  50vw;
-  height: 50vh;
+  height: 28.125vw;
   background-size: cover;
   filter: grayscale(100%);
 }
 
 .team-img {
   width: 50vw;
-  height: 50vh;
+  height: 28.125vw;
 }
 
 .team-img2 {
   width: 50vw;  /*width of parent container */
-  height: 50vh; /* height of parent container */
+  height: 28.125vw; /* height of parent container */
 }
 
 .scrolling-text {
