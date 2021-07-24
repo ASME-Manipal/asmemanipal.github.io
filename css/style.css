@@ -1429,8 +1429,8 @@ span {
   white-space: nowrap;
   object-fit: cover;
   background: url("team.jpeg");
-  width:  50%;
-  height: 0%;
+  width:  50vw;
+  /* height: 0%; */
   background-size: cover;
   z-index: 1;
 }
@@ -1443,20 +1443,20 @@ span {
   white-space: nowrap;
   object-fit: cover;
   background: url("team.jpeg");
-  width:  50%;
-  height: 64%;
+  width:  50vw;
+  height: 50vh;
   background-size: cover;
   filter: grayscale(100%);
 }
 
 .team-img {
-  width: 60%;
-  height: 100%;
+  width: 50vw;
+  height: 50vh;
 }
 
 .team-img2 {
-  width: 60%;  /*width of parent container */
-  height: 100%; /* height of parent container */
+  width: 50vw;  /*width of parent container */
+  height: 50vh; /* height of parent container */
 }
 
 .scrolling-text {
