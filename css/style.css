@@ -85,7 +85,7 @@ html {
 
 html,
 body {
-  /* overflow: hidden; */
+  overflow: hidden;
   height: 100%;
   width: 100%;
   margin: 0 !important;
@@ -171,7 +171,7 @@ header {
 }
 
 .navbar {
-  z-index: 2;
+  z-index: 10;
   position: fixed !important;
   top: 0px !important;
   width: 100%;
@@ -2549,7 +2549,7 @@ footer {
 
 .projects-inner {
   position: relative;
-  z-index: 200000000000000000 !important;
+  z-index: 9 !important;
   display: flex;
   padding-bottom: auto;
   padding-top: auto;
