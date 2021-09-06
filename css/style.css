@@ -532,6 +532,13 @@ span {
   position: absolute;
 }
 
+<<<<<<< Updated upstream
+=======
+/* opacity: 0; */
+
+
+
+>>>>>>> Stashed changes
 @-webkit-keyframes images {0% {-webkit-transform: translate3d(0, 50px, 0);}100% {-webkit-transform: translate3d(0, 0, 0);opacity:1;}}
 @-moz-keyframes images {0% {-moz-transform: translate3d(0, 50px, 0);}100% {opacity: 1;}}
 @keyframes images {0% {transform: translate3d(0, 50px, 0);}100% {opacity: 1;}}
