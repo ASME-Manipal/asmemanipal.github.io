@@ -120,7 +120,7 @@
   .wa-push {
     position: absolute;
     overflow: hidden;
-    top: 42%;
+    top: 41%;
     left: 43%;
     animation:  push-up2 1s forwards;
     animation-delay: 9s;
@@ -137,7 +137,7 @@
   }
 
   @keyframes push-up {100%{transform: translateY(0px);}}
-  @keyframes push-up2 {100%{transform: translateY(-24px);}}
+  @keyframes push-up2 {100%{transform: translateY(-19px);}}
 
   @keyframes content-show {
     0% {opacity: 0;}
