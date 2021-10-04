@@ -244,6 +244,7 @@ header {
     font-family: "Raleway";
     font-weight: 100 !important;
   }
+
   .navbar .navbar-nav .nav-item:hover {
     margin-left: 1em;
     margin-right: 1em;
@@ -256,6 +257,8 @@ header {
     font-weight: bold;
   }
 }
+
+
 
 .navbar .navbar-nav .nav-link {
   font-weight: 400 !important;
@@ -661,6 +664,20 @@ span {
   height: 230vh;
   position: absolute;
 }
+
+/* opacity: 0; */
+
+
+
+@-webkit-keyframes images {0% {-webkit-transform: translate3d(0, 50px, 0);}100% {-webkit-transform: translate3d(0, 0, 0);opacity:1;}}
+@-moz-keyframes images {0% {-moz-transform: translate3d(0, 50px, 0);}100% {opacity: 1;}}
+@keyframes images {0% {transform: translate3d(0, 50px, 0);}100% {opacity: 1;}}
+@-webkit-keyframes left-para {0% {-webkit-transform: translate3d(-50px, 0, 0);}100% {opacity: 1;}}
+@-moz-keyframes left-para {0% {-moz-transform: translate3d(-50px, 0, 0);}100% {opacity: 1;}}
+@keyframes left-para {0% {transform: translate3d(-50px, 0, 0);}100% {opacity: 1;}}
+@-webkit-keyframes right-para {0% {-webkit-transform: translate(50px, 0);}100% {-webkit-transform: translate(0, 0);opacity:1;}}
+@-moz-keyframes right-para {0% {-moz-transform: translate(+50px, 0);}100% {opacity: 1;}}
+@keyframes right-para {0% {transform: translate(+50px, 0);}100% {opacity: 1;}}
 
 @-webkit-keyframes images {
   0% {
@@ -1074,6 +1091,7 @@ span {
   z-index: -1 !important;
   position: absolute;
 }
+
 .sponsors {
   background-color: #1c1b1b;
   height: 100vh;
@@ -1372,7 +1390,7 @@ span {
 }
 
 .members img {
-  height: 9.5em !important;
+  height: 13vh !important;
   margin-bottom: 10px;
 }
 
@@ -1841,8 +1859,8 @@ span {
 }
 
 .team-img {
-  width: 60%;
-  height: 100%;
+  width: 50vw;
+  height: 28.125vw;
 }
 
 .team-img2 {

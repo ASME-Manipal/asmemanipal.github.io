@@ -1,0 +1,124 @@
+        <img alt="snowflakes" src="images/paisa.png" class="snowExample"
+          style="width: 70px; -webkit-animation-delay: 0s;animation-delay: 0s;-webkit-animation-duration: 10.5s;animation-duration: 10.5s; left:50%; margin-left: -50%;" />
+        <img alt="snowflakes" src="images/paisa2.png" class="snowExample"
+          style="width: 70px; -webkit-animation-delay: 2s;animation-delay: 2s;-webkit-animation-duration: 10.5s;animation-duration: 10.5s; left:50%; margin-left: -40%;" />
+        <img alt="snowflakes" src="images/paisa.png" class="snowExample"
+          style="width: 70px; -webkit-animation-delay: 5s;animation-delay: 5s; -webkit-animation-duration: 10.5s;animation-duration: 10.5s; left:50%; margin-left: -30%;" />
+        <img alt="snowflakes" src="images/paisa.png" class="snowExample"
+          style="width: 70px; -webkit-animation-delay: 3s;animation-delay: 3s; -webkit-animation-duration: 10.5s;animation-duration: 10.5s; left:50%; margin-left: -20%;" />
+        <img alt="snowflakes" src="images/paisa2.png" class="snowExample"
+          style="width: 70px; -webkit-animation-delay: 1s;animation-delay: 1s; -webkit-animation-duration: 10.5s;animation-duration: 10.5s; left:50%; margin-left: -10%;" />
+        <img alt="snowflakes" src="images/paisa2.png" class="snowExample"
+          style="width: 70px; -webkit-animation-delay: 3.5s;animation-delay: 3.5s; -webkit-animation-duration: 10.5s;animation-duration: 10.5s; left:50%; margin-left: 0%;" />
+        <img alt="snowflakes" src="images/paisa.png" class="snowExample"
+          style="width: 70px; -webkit-animation-delay: 5.5s;animation-delay: 5.5s;-webkit-animation-duration: 10.5s;animation-duration: 10.5s; left:50%; margin-left: 10%;" />
+        <img alt="snowflakes" src="images/paisa2.png" class="snowExample"
+          style="width: 70px; -webkit-animation-delay: 4.5s;animation-delay: 4.5s;-webkit-animation-duration: 10.5s;animation-duration: 10.5s; left:50%; margin-left: 20%;" />
+        <img alt="snowflakes" src="images/paisa2.png" class="snowExample"
+          style="width: 70px; -webkit-animation-delay: 2.5s;animation-delay: 2.5s; -webkit-animation-duration: 10.5s;animation-duration: 10.5s; left:50%; margin-left: 30%;" />
+        <img alt="snowflakes" src="images/paisa2.png" class="snowExample"
+          style="width: 70px; -webkit-animation-delay: 0.5s;animation-delay: 0.5s; -webkit-animation-duration: 10.5s;animation-duration: 10.5s; left:50%; margin-left: 40%;" />
+        <img alt="snowflakes" src="images/paisa.png" class="snowExample"
+          style="width: 70px; -webkit-animation-delay: 1.5s;animation-delay: 5.5s; -webkit-animation-duration: 10.5s;animation-duration: 10.5s; left:50%; margin-left: 50%;" />
+        <img alt="snowflakes" src="images/paisa.png" class="snowExample"
+          style="width: 70px; -webkit-animation-delay: 1.5s;animation-delay: 1.5s;-webkit-animation-duration: 10.5s;animation-duration: 10.5s; left:50%; margin-left: -45%;" />
+        <img alt="snowflakes" src="images/paisa2.png" class="snowExample"
+          style="width: 70px; -webkit-animation-delay: 4.5s;animation-delay: 4.5s;-webkit-animation-duration: 10.5s;animation-duration: 10.5s; left:50%; margin-left: -35%;" />
+        <img alt="snowflakes" src="images/paisa.png" class="snowExample"
+          style="width: 70px; -webkit-animation-delay: 2.5s;animation-delay: 2.5s; -webkit-animation-duration: 10.5s;animation-duration: 10.5s; left:50%; margin-left: -15%;" />
+        <img alt="snowflakes" src="images/paisa.png" class="snowExample"
+          style="width: 70px; -webkit-animation-delay: 3.5s;animation-delay: 3.5s; -webkit-animation-duration: 10.5s;animation-duration: 10.5s; left:50%; margin-left: -15%;" />
+        <img alt="snowflakes" src="images/paisa2.png" class="snowExample"
+          style="width: 70px; -webkit-animation-delay: 3s;animation-delay: 3s; -webkit-animation-duration: 10.5s;animation-duration: 10.5s; left:50%; margin-left: -5%;" />
+        <img alt="snowflakes" src="images/paisa2.png" class="snowExample"
+          style="width: 70px; -webkit-animation-delay: 1s;animation-delay: 1s; -webkit-animation-duration: 10.5s;animation-duration: 10.5s; left:50%; margin-left: 5%;" />
+        <img alt="snowflakes" src="images/paisa.png" class="snowExample"
+          style="width: 70px; -webkit-animation-delay: 3s;animation-delay: 3s;-webkit-animation-duration: 10.5s;animation-duration: 10.5s; left:50%; margin-left: 15%;" />
+        <img alt="snowflakes" src="images/paisa.png" class="snowExample"
+          style="width: 70px; -webkit-animation-delay: 0s;animation-delay: 0s;-webkit-animation-duration: 10.5s;animation-duration: 10.5s; left:50%; margin-left: 25%;" />
+        <img alt="snowflakes" src="images/paisa2.png" class="snowExample"
+          style="width: 70px; -webkit-animation-delay: 0.5s;animation-delay: 0.5s; -webkit-animation-duration: 10.5s;animation-duration: 10.5s; left:50%; margin-left: 35%;" />
+        <img alt="snowflakes" src="images/paisa.png" class="snowExample"
+          style="width: 70px; -webkit-animation-delay: 4s;animation-delay: 4s; -webkit-animation-duration: 10.5s;animation-duration: 10.5s; left:50%; margin-left: 45%;" />
+        <img alt="snowflakes" src="images/paisa.png" class="snowExample"
+          style="width: 70px; -webkit-animation-delay: 5s;animation-delay: 5s; -webkit-animation-duration: 10.5s;animation-duration: 10.5s; left:50%; margin-left: 55%;" />
+        <img alt="snowflakes" src="images/paisa.png" class="snowExample"
+          style="width: 70px; -webkit-animation-delay: 0.5s;animation-delay: 0s;-webkit-animation-duration: 10.5s;animation-duration: 10.5s; left:50%; margin-left: 55%;" />
+        <img alt="snowflakes" src="images/paisa2.png" class="snowExample"
+          style="width: 70px; -webkit-animation-delay: 2.5s;animation-delay: 2s;-webkit-animation-duration: 10.5s;animation-duration: 10.5s; left:50%; margin-left: 40%;" />
+        <img alt="snowflakes" src="images/paisa.png" class="snowExample"
+          style="width: 70px; -webkit-animation-delay: 3s;animation-delay: 5s; -webkit-animation-duration: 10.5s;animation-duration: 10.5s; left:50%; margin-left: 30%;" />
+        <img alt="snowflakes" src="images/paisa2.png" class="snowExample"
+          style="width: 70px; -webkit-animation-delay: 2s;animation-delay: 3s; -webkit-animation-duration: 10.5s;animation-duration: 10.5s; left:50%; margin-left: 20%;" />
+        <img alt="snowflakes" src="images/paisa.png" class="snowExample"
+          style="width: 70px; -webkit-animation-delay: 2.5s;animation-delay: 2.5s; -webkit-animation-duration: 10.5s;animation-duration: 10.5s; left:50%; margin-left: 10%;" />
+        <img alt="snowflakes" src="images/paisa2.png" class="snowExample"
+          style="width: 70px; -webkit-animation-delay: 3.5s;animation-delay: 3.5s; -webkit-animation-duration: 10.5s;animation-duration: 10.5s; left:50%; margin-left: 0%;" />
+        <img alt="snowflakes" src="images/paisa.png" class="snowExample"
+          style="width: 70px; -webkit-animation-delay: 1.75s;animation-delay: 5.5s;-webkit-animation-duration: 10.5s;animation-duration: 10.5s; left:50%; margin-left: -10%;" />
+        <img alt="snowflakes" src="images/paisa.png" class="snowExample"
+          style="width: 70px; -webkit-animation-delay: 3.2s;animation-delay: 4.5s;-webkit-animation-duration: 10.5s;animation-duration: 10.5s; left:50%; margin-left: -20%;" />
+        <img alt="snowflakes" src="images/paisa2.png" class="snowExample"
+          style="width: 70px; -webkit-animation-delay: 0s;animation-delay: 2.5s; -webkit-animation-duration: 10.5s;animation-duration: 10.5s; left:50%; margin-left: -30%;" />
+        <img alt="snowflakes" src="images/paisa.png" class="snowExample"
+          style="width: 70px; -webkit-animation-delay: 5s;animation-delay: 5s;-webkit-animation-duration: 10.5s;animation-duration: 10.5s; left:50%; margin-left: -50%;" />
+        <img alt="snowflakes" src="images/paisa2.png" class="snowExample"
+          style="width: 70px; -webkit-animation-delay: 7s;animation-delay: 7s;-webkit-animation-duration: 10.5s;animation-duration: 10.5s; left:50%; margin-left: -40%;" />
+        <img alt="snowflakes" src="images/paisa.png" class="snowExample"
+          style="width: 70px; -webkit-animation-delay: 10s;animation-delay: 10s; -webkit-animation-duration: 10.5s;animation-duration: 10.5s; left:50%; margin-left: -30%;" />
+        <img alt="snowflakes" src="images/paisa.png" class="snowExample"
+          style="width: 70px; -webkit-animation-delay: 8s;animation-delay: 8s; -webkit-animation-duration: 10.5s;animation-duration: 10.5s; left:50%; margin-left: -20%;" />
+        <img alt="snowflakes" src="images/paisa2.png" class="snowExample"
+          style="width: 70px; -webkit-animation-delay: 6s;animation-delay: 6s; -webkit-animation-duration: 10.5s;animation-duration: 10.5s; left:50%; margin-left: -10%;" />
+        <img alt="snowflakes" src="images/paisa2.png" class="snowExample"
+          style="width: 70px; -webkit-animation-delay: 8.5s;animation-delay: 8.5s; -webkit-animation-duration: 10.5s;animation-duration: 10.5s; left:50%; margin-left: 0%;" />
+        <img alt="snowflakes" src="images/paisa.png" class="snowExample"
+          style="width: 70px; -webkit-animation-delay: 10.5s;animation-delay: 10.5s;-webkit-animation-duration: 10.5s;animation-duration: 10.5s; left:50%; margin-left: 10%;" />
+        <img alt="snowflakes" src="images/paisa2.png" class="snowExample"
+          style="width: 70px; -webkit-animation-delay: 9.5s;animation-delay: 9.5s;-webkit-animation-duration: 10.5s;animation-duration: 10.5s; left:50%; margin-left: 20%;" />
+        <img alt="snowflakes" src="images/paisa2.png" class="snowExample"
+          style="width: 70px; -webkit-animation-delay: 7.5s;animation-delay: 7.5s; -webkit-animation-duration: 10.5s;animation-duration: 10.5s; left:50%; margin-left: 30%;" />
+        <img alt="snowflakes" src="images/paisa2.png" class="snowExample"
+          style="width: 70px; -webkit-animation-delay: 5.5s;animation-delay: 5.5s; -webkit-animation-duration: 10.5s;animation-duration: 10.5s; left:50%; margin-left: 40%;" />
+        <img alt="snowflakes" src="images/paisa.png" class="snowExample"
+          style="width: 70px; -webkit-animation-delay: 10.5s;animation-delay: 10.5s; -webkit-animation-duration: 10.5s;animation-duration: 10.5s; left:50%; margin-left: 50%;" />
+        <img alt="snowflakes" src="images/paisa.png" class="snowExample"
+          style="width: 70px; -webkit-animation-delay: 6.5s;animation-delay: 6.5s;-webkit-animation-duration: 10.5s;animation-duration: 10.5s; left:50%; margin-left: -45%;" />
+        <img alt="snowflakes" src="images/paisa2.png" class="snowExample"
+          style="width: 70px; -webkit-animation-delay: 9.5s;animation-delay: 9.5s;-webkit-animation-duration: 10.5s;animation-duration: 10.5s; left:50%; margin-left: -35%;" />
+        <img alt="snowflakes" src="images/paisa.png" class="snowExample"
+          style="width: 70px; -webkit-animation-delay: 7.5s;animation-delay: 7.5s; -webkit-animation-duration: 10.5s;animation-duration: 10.5s; left:50%; margin-left: -15%;" />
+        <img alt="snowflakes" src="images/paisa.png" class="snowExample"
+          style="width: 70px; -webkit-animation-delay: 8.5s;animation-delay: 8.5s; -webkit-animation-duration: 10.5s;animation-duration: 10.5s; left:50%; margin-left: -15%;" />
+        <img alt="snowflakes" src="images/paisa2.png" class="snowExample"
+          style="width: 70px; -webkit-animation-delay: 8s;animation-delay: 8s; -webkit-animation-duration: 10.5s;animation-duration: 10.5s; left:50%; margin-left: -5%;" />
+        <img alt="snowflakes" src="images/paisa2.png" class="snowExample"
+          style="width: 70px; -webkit-animation-delay: 6s;animation-delay: 6s; -webkit-animation-duration: 10.5s;animation-duration: 10.5s; left:50%; margin-left: 5%;" />
+        <img alt="snowflakes" src="images/paisa.png" class="snowExample"
+          style="width: 70px; -webkit-animation-delay: 8s;animation-delay: 8s;-webkit-animation-duration: 10.5s;animation-duration: 10.5s; left:50%; margin-left: 15%;" />
+        <img alt="snowflakes" src="images/paisa.png" class="snowExample"
+          style="width: 70px; -webkit-animation-delay: 5s;animation-delay: 5s;-webkit-animation-duration: 10.5s;animation-duration: 10.5s; left:50%; margin-left: 25%;" />
+        <img alt="snowflakes" src="images/paisa2.png" class="snowExample"
+          style="width: 70px; -webkit-animation-delay: 5.5s;animation-delay: 5.5s; -webkit-animation-duration: 10.5s;animation-duration: 10.5s; left:50%; margin-left: 35%;" />
+        <img alt="snowflakes" src="images/paisa.png" class="snowExample"
+          style="width: 70px; -webkit-animation-delay: 9s;animation-delay: 9s; -webkit-animation-duration: 10.5s;animation-duration: 10.5s; left:50%; margin-left: 45%;" />
+        <img alt="snowflakes" src="images/paisa.png" class="snowExample"
+          style="width: 70px; -webkit-animation-delay: 10s;animation-delay: 10s; -webkit-animation-duration: 10.5s;animation-duration: 10.5s; left:50%; margin-left: 55%;" />
+        <img alt="snowflakes" src="images/paisa.png" class="snowExample"
+          style="width: 70px; -webkit-animation-delay: 10.5s;animation-delay: 10.5s;-webkit-animation-duration: 10.5s;animation-duration: 10.5s; left:50%; margin-left: 55%;" />
+        <img alt="snowflakes" src="images/paisa2.png" class="snowExample"
+          style="width: 70px; -webkit-animation-delay: 7.5s;animation-delay: 7.5s;-webkit-animation-duration: 10.5s;animation-duration: 10.5s; left:50%; margin-left: 40%;" />
+        <img alt="snowflakes" src="images/paisa.png" class="snowExample"
+          style="width: 70px; -webkit-animation-delay: 8s;animation-delay: 8s; -webkit-animation-duration: 10.5s;animation-duration: 10.5s; left:50%; margin-left: 30%;" />
+        <img alt="snowflakes" src="images/paisa2.png" class="snowExample"
+          style="width: 70px; -webkit-animation-delay: 7s;animation-delay: 7s; -webkit-animation-duration: 10.5s;animation-duration: 10.5s; left:50%; margin-left: 20%;" />
+        <img alt="snowflakes" src="images/paisa.png" class="snowExample"
+          style="width: 70px; -webkit-animation-delay: 7.5s;animation-delay: 7.5s; -webkit-animation-duration: 10.5s;animation-duration: 10.5s; left:50%; margin-left: 10%;" />
+        <img alt="snowflakes" src="images/paisa2.png" class="snowExample"
+          style="width: 70px; -webkit-animation-delay: 8.5s;animation-delay: 8.5s; -webkit-animation-duration: 10.5s;animation-duration: 10.5s; left:50%; margin-left: 0%;" />
+        <img alt="snowflakes" src="images/paisa.png" class="snowExample"
+          style="width: 70px; -webkit-animation-delay: 6.75s;animation-delay: 6.75s;-webkit-animation-duration: 10.5s;animation-duration: 10.5s; left:50%; margin-left: -10%;" />
+        <img alt="snowflakes" src="images/paisa.png" class="snowExample"
+          style="width: 70px; -webkit-animation-delay: 8.2s;animation-delay: 8.2;-webkit-animation-duration: 10.5s;animation-duration: 10.5s; left:50%; margin-left: -20%;" />
+        <img alt="snowflakes" src="images/paisa2.png" class="snowExample"
+          style="width: 70px; -webkit-animation-delay: 5s;animation-delay: 5s; -webkit-animation-duration: 10.5s;animation-duration: 10.5s; left:50%; margin-left: -30%;" />
