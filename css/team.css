@@ -1,11 +1,12 @@
 .new_table{
-  text-align: center;
+  /* text-align: center; */
 }
 
 .person{
   display: inline-block;
   width: 19.5vw;
   margin: 25px;
+  text-align: center;
 }
 
 .person gap{
