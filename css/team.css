@@ -4,7 +4,7 @@
 
 .person{
   display: inline-block;
-  width: 19.5vw;
+  width: min(19.5vw, 31vh);
   margin: 25px;
   text-align: center;
 }
