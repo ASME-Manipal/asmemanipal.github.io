@@ -1,16 +1,23 @@
 .new_table{
-  /* text-align: center; */
+  text-align: center;
 }
 
 .person{
   display: inline-block;
   width: min(19.5vw, 31vh);
-  margin: 25px;
+  /* width: 20vw; */
+  margin: 35px;
+  /* transform: scale(1.2); */
   text-align: center;
 }
 
-.person gap{
+.person .gap{
   height: 10px;
+  width: 50px !important;
+}
+
+.person a img{
+  height: 20px;
 }
 
 .members div:nth-child(1n){

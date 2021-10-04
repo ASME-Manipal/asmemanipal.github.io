@@ -85,7 +85,7 @@ html {
 
 html,
 body {
-  overflow: hidden;
+  /* overflow: hidden; */
   height: 100%;
   width: 100%;
   margin: 0 !important;
@@ -1235,7 +1235,6 @@ span {
   align-self: center;
   top: 50%;
   transform: translateY(-50%);
-  right: 50%;
 }
 
 .sp-hr {
@@ -1384,7 +1383,7 @@ span {
 }
 
 .members {
-  width: 95%;
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
   font-family: Raleway;
@@ -1393,7 +1392,7 @@ span {
 }
 
 .members img {
-  height: 13vh !important;
+  height: 18vh !important;
   margin-bottom: 10px;
 }
 
