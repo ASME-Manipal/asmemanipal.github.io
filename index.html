@@ -38,6 +38,10 @@
 
 
 </style>
+
+
+
+
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
@@ -86,7 +90,7 @@
 
 <body>
 
-  <section class="mafm">
+  <section class="mafm" id="mafm">
     <div class="mobile-outer">
         <div class="mobile-wrap">
         <div class="img-left" style="background-size:cover">
@@ -105,11 +109,9 @@
 
 
         <div class="mobile-desc">
-          <br>
-          <br>
-          Unfortunately, this website is currently only available on desktop.
-          <br><br>
-          Drop you Email-ID to receive the link again.
+          <br><br>Unfortunately, this website is currently only available on desktop.
+          <br><br>Best viewed in Chrome and Firefox.
+          <br><br>Drop you Email-ID to receive the link again.
           <br><br>
         </div>
 
@@ -139,13 +141,13 @@
 
 
 
-  <div class="full_screen_mode" style="color: #1c1b1b; font-family: Raleway; text-align: center;">
+  <div class="full_screen_mode" id="full_screen_mode" style="color: #1c1b1b; font-family: Raleway; text-align: center;">
     Please view in full screen mode.
   </div>
 
 
 
-  <div class="mac">
+  <div class="mac" id="mac">
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script>
@@ -1378,6 +1380,22 @@ $(window).scroll(function () {
       grabCursor: true,
     });
   </script>
+
+  <script>
+  if (navigator.userAgent.indexOf("Chrome")!=-1){
+  }
+  elif (navigator.userAgent.indexOf("Firefox")!=-1){
+  }
+  elif (navigator.userAgent.indexOf("Edge")!=-1){
+  }
+  elif (navigator.userAgent.indexOf("Safari")!=-1){
+    document.getElementById("mac").style.display = "none";
+    document.getElementById("full_screen_mode").style.display = "none";
+    document.getElementById("mafm").style.display = "revert";
+    // window.location.replace("http://www.asmemanipal.com/safari/");
+  }
+  </script>
+
 </div>
 </body>
 </html>
