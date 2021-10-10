@@ -39,13 +39,6 @@
 
 </style>
 
-  <script>
-  if (navigator.userAgent.indexOf("Safari")!=-1){
-    document.getElementById("mac").style.display = "none";
-    document.getElementById("full_screen_mode").style.display = "none";
-    document.getElementById("mafm").style.display = "unset";
-  }
-  </script>
 
 
 
@@ -1388,17 +1381,10 @@ $(window).scroll(function () {
   </script>
 
   <script>
-  console.log(navigator.userAgent.indexOf("Safari")!=-1);
-  if (navigator.userAgent.indexOf("Chrome")!=-1){
-  }
-  elif (navigator.userAgent.indexOf("Firefox")!=-1){
-  }
-  elif (navigator.userAgent.indexOf("Edge")!=-1){
-  }
-  elif (navigator.userAgent.indexOf("Safari")!=-1){
+  if (navigator.userAgent.indexOf("Safari")!=-1){
     document.getElementById("mac").style.display = "none";
     document.getElementById("full_screen_mode").style.display = "none";
-    document.getElementById("mafm").style.display = "unset";
+    document.getElementById("mafm").style.display = "reset";
     // window.location.replace("http://www.asmemanipal.com/safari/");
   }
   </script>
