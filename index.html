@@ -36,34 +36,53 @@
   .full_screen_mode{display: none;}
   }
 
-  @media not all and (min-resolution:.001dpcm)
+/*
+  @media screen and (-webkit-min-device-pixel-ratio:0) and (min-resolution:.001dpcm){
+      .chrome_only.mac {display: none;}
+      } */
+
+
+
+  /* Safari old */
+  /* @media not all and (min-resolution:.001dpcm)
   { @supports (-webkit-appearance:none) and (stroke-color:transparent) {
   selector {
     .mac {display: none;}
     .full_screen_mode{display: none;}
   }
-  }}
+  }} */
 
   /* Safari 10.1 */
-  @media not all and (min-resolution:.001dpcm){
+  /* @media not all and (min-resolution:.001dpcm){
   @supports (-webkit-appearance:none) and (not (stroke-color:transparent)) {
   selector {
     .mac {display: none;}
     .full_screen_mode{display: none;}
   }
-  }}
+  }} */
 
   /* Safari 6.1-10.0 (but not 10.1) */
-  @media screen and (min-color-index:0) and(-webkit-min-device-pixel-ratio:0){
+  /* @media screen and (min-color-index:0) and(-webkit-min-device-pixel-ratio:0){
   @media {
   selector {
     .mac {display: none;}
     .full_screen_mode{display: none;}
   }
-}}
+}} */
 
 </style>
 
+<script>
+// console.log(navigator.userAgent.indexOf("Safari"));
+if (navigator.userAgent.indexOf("Chrome")==-1){
+if (navigator.userAgent.indexOf("Safari")!=-1){
+  // console.log('Its in the func');
+  var elem = document.createElement('link');
+  elem.rel = ' stylesheet';
+  elem.href= 'css/remove_safari.css';//Link of the css file
+  document.head.appendChild(elem);
+}}
+</script>
 
 
 
