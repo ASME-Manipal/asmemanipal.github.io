@@ -36,6 +36,31 @@
   .full_screen_mode{display: none;}
   }
 
+  @media not all and (min-resolution:.001dpcm)
+  { @supports (-webkit-appearance:none) and (stroke-color:transparent) {
+  selector {
+    .mac {display: none;}
+    .full_screen_mode{display: none;}
+  }
+  }}
+
+  /* Safari 10.1 */
+  @media not all and (min-resolution:.001dpcm){
+  @supports (-webkit-appearance:none) and (not (stroke-color:transparent)) {
+  selector {
+    .mac {display: none;}
+    .full_screen_mode{display: none;}
+  }
+  }}
+
+  /* Safari 6.1-10.0 (but not 10.1) */
+  @media screen and (min-color-index:0) and(-webkit-min-device-pixel-ratio:0){
+  @media {
+  selector {
+    .mac {display: none;}
+    .full_screen_mode{display: none;}
+  }
+}}
 
 </style>
 
@@ -1382,18 +1407,18 @@ $(window).scroll(function () {
 
 </div>
 
-<script>
-if (navigator.userAgent.indexOf("Chrome") != -1){
-}
-elif (navigator.userAgent.indexOf("Firefox") != -1){
-}
-elif (navigator.userAgent.indexOf("Safari") != -1){
+<!-- <script>
+if (navigator.userAgent.indexOf("chrome")==-1){
+//   if (navigator.userAgent.indexOf("Firefox")==-1){
+    if (navigator.userAgent.indexOf("Safari")!=-1){
   document.getElementById("mac").style.display = "none";
   document.getElementById("full_screen_mode").style.display = "none";
   document.getElementById("mafm").style.display = "revert";
-  // window.location.replace("http://www.asmemanipal.com/safari/");
+  // window.location.replace("http://www.asmemanipal.com/safari/");}
+    }
+//   }
 }
-</script>
+</script> -->
 
 </body>
 </html>
