@@ -1839,7 +1839,7 @@ span {
   top: 18%;
   white-space: nowrap;
   object-fit: cover;
-  background: url("team.jpeg");
+  background: url("team.jpg");
   width: 50%;
   height: 0%;
   background-size: cover;
@@ -1853,7 +1853,7 @@ span {
   position: absolute;
   white-space: nowrap;
   object-fit: cover;
-  background: url("team.jpeg");
+  background: url("team.jpg");
   width: 50%;
   height: 64%;
   background-size: cover;
