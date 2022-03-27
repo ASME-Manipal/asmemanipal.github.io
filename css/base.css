@@ -1,0 +1,45 @@
+:root{
+    --grad_right: linear-gradient(to right, #399cc5 0%,
+    #40a0bf 12.5%,
+    #46a3b8 25%,
+    #4aa5b5 37.5%,
+    #5bada4 50%,
+    #66b298 62.5%,
+    #6eb790 75%,
+    #81c07d 87.5%,
+    #92c96c 100%);
+  
+    --grad_bottom: linear-gradient(to bottom, #399cc5 0%,
+    #40a0bf 12.5%,
+    #46a3b8 25%,
+    #4aa5b5 37.5%,
+    #5bada4 50%,
+    #66b298 62.5%,
+    #6eb790 75%,
+    #81c07d 87.5%,
+    #92c96c 100%);
+  }
+  
+body{
+    background-color: #1c1b1b;
+    font-family: Raleway;
+    text-align: center;
+}
+
+body::-webkit-scrollbar{
+    width: 0.5rem;
+    height: 0px;
+}
+
+.container {
+    padding: 0px;
+}
+
+.grad {
+    background: var(--grad_right);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+  }
+
