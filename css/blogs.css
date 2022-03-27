@@ -24,7 +24,7 @@
 
 @media(min-width:1200px) {
     .blog{
-        max-width: min(43vw, 550px);
+        max-width: min(43vw, 435px);
     }
 }
 
