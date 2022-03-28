@@ -43,3 +43,6 @@ body::-webkit-scrollbar{
     text-align: center;
   }
 
+::selection {
+text-shadow: 0 0 5px white, 0 0 5px white;
+}
