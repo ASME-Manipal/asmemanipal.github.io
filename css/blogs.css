@@ -15,7 +15,7 @@
 
 .blog{
     color: bisque;
-    border: 1px solid white;
+    border: 0px solid white;
     text-align: center;
     padding: 0.5vw;
     max-width: 90vw;
@@ -42,6 +42,7 @@
 .blog p:nth-child(3) {
     text-align: right;
     font-size: small;
+    font-style: italic;
 }
 
 /* details of blog */
