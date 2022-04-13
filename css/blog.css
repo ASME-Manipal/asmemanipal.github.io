@@ -1,0 +1,35 @@
+.heading {
+    font-size: 10vh;
+    text-align: center;
+}
+
+.blog {
+    display: flex;
+    flex-wrap: wrap;
+    color: bisque;
+    justify-content: center;
+}
+
+.blog2 {
+    padding: 2vw;
+    width: 95vw;
+}
+
+img {
+    width: 100%;
+}
+
+
+@media(min-width:1200px) {
+    .blog2{
+        max-width: min(45vw, 790px);
+    }
+}
+
+.author {
+    width:95vw;
+    color: bisque;
+    text-align: right;
+    font-size: italic;
+    padding-bottom: 5vh;
+}
