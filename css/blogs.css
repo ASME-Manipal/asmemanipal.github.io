@@ -22,6 +22,10 @@
     margin: 1vw;
 }
 
+a:hover{
+text-decoration:none;
+}
+
 @media(min-width:1200px) {
     .blog{
         max-width: min(28vw, 435px);
